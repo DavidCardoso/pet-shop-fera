@@ -1,0 +1,7 @@
+<map id="Exotico" name="Exotico">
+<area shape="rect" id="node3" href="$classAnfibioExotico.html" title="AnfibioExotico" alt="" coords="5,155,112,181"/>
+<area shape="rect" id="node4" href="$classAveExotico.html" title="AveExotico" alt="" coords="137,155,226,181"/>
+<area shape="rect" id="node5" href="$classMamiferoExotico.html" title="MamiferoExotico" alt="" coords="251,155,371,181"/>
+<area shape="rect" id="node6" href="$classReptilExotico.html" title="ReptilExotico" alt="" coords="395,155,495,181"/>
+<area shape="rect" id="node2" href="$classSilvestre.html" title="Silvestre" alt="" coords="209,5,282,32"/>
+</map>

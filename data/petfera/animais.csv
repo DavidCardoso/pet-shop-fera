@@ -1,0 +1,8 @@
+1;AnfibioExotico;Sapo;Sapo leo;Cururu;Carne;M;2;2;1;1;10-10-2016;ibama;Congo
+2;AnfibioNativo;Rã;Rã leo;Frog;Carne;M;2;2;1;1;10-10-2016;ibama;Amazonas;autorizacao
+3;AveExotico;Águia;Águia leo;Real;Carne;M;2;8;7;9;9;ibama;Congo
+4;AveNativo;Bem-te-vi;Bem leo;Cantor;Carne;M;2;8;7;9;9;ibama;Amazonas;autorizacao
+5;MamiferoExotico;Leão;v leo;Simba;Carne;M;2;6;5;laranja;ibama;Congo
+6;MamiferoNativo;Gato do mato;Gato leo;Xaninho;Carne;M;2;6;5;laranja;ibama;Amazonas;autorizacao
+7;ReptilExotico;Dragão de comodo;Dragão leo;Charizard;Carne;M;2;4;3;1;paralizante;ibama;Congo
+8;ReptilNativo;Teju;Teju leo;Teju;Carne;M;2;4;3;0;nenhum;ibama;Amazonas;autorizacao

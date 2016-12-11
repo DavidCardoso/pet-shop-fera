@@ -1,0 +1,1378 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"path",
+				"path_animais"
+			],
+			[
+				"pa",
+				"path_pessoas"
+			],
+			[
+				"pess",
+				"pessoas"
+			],
+			[
+				"save",
+				"saveInFiles"
+			],
+			[
+				"end",
+				"endl"
+			],
+			[
+				"pat",
+				"path_animais"
+			],
+			[
+				"ve",
+				"veterinario"
+			],
+			[
+				"Ave",
+				"AveExotico"
+			],
+			[
+				"file",
+				"file_pessoas"
+			],
+			[
+				"ar",
+				"argv"
+			],
+			[
+				"rep",
+				"classe_reptil_nativo"
+			],
+			[
+				"mami",
+				"classe_mamifero_nativo"
+			],
+			[
+				"mam",
+				"classe_mamifero_exotico"
+			],
+			[
+				"ma",
+				"classe_mamifero"
+			],
+			[
+				"anfi",
+				"classe_anfibio_nativo"
+			],
+			[
+				"ave",
+				"classe_ave_nativo"
+			],
+			[
+				"classe_ave",
+				"classe_ave"
+			],
+			[
+				"ani",
+				"animal"
+			],
+			[
+				"anim",
+				"animal_nativo"
+			],
+			[
+				"animal",
+				"animal_silvestre"
+			],
+			[
+				"pesso",
+				"pessoa_veterinario"
+			],
+			[
+				"pessoa",
+				"pessoa_tratador"
+			],
+			[
+				"new",
+				"new_size"
+			],
+			[
+				"get",
+				"getKey"
+			],
+			[
+				"E",
+				"ENTRY_DELETED"
+			],
+			[
+				"pes",
+				"pessoas"
+			],
+			[
+				"classe_ave_",
+				"classe_ave_exotico"
+			],
+			[
+				"ania",
+				"animal_exotico"
+			],
+			[
+				"classe",
+				"classe_mamifero_nativo"
+			],
+			[
+				"m_",
+				"m_tamanho_bico"
+			],
+			[
+				"tamo",
+				"tamanho_bico"
+			],
+			[
+				"en",
+				"envergadura"
+			],
+			[
+				"ta",
+				"tamanho_bico"
+			],
+			[
+				"uf",
+				"uf_origem"
+			],
+			[
+				"in",
+				"include"
+			],
+			[
+				"cp",
+				"m_cpf"
+			],
+			[
+				"nome",
+				"nome"
+			],
+			[
+				"m_i",
+				"m_id"
+			],
+			[
+				"Has",
+				"HashEntry"
+			],
+			[
+				"cla",
+				"classe_mamifero"
+			],
+			[
+				"a",
+				"animal_exotico"
+			],
+			[
+				"time",
+				"time_t"
+			],
+			[
+				"m_taxa",
+				"m_taxa_positiva"
+			],
+			[
+				"bo",
+				"book2"
+			],
+			[
+				"m_contas_",
+				"m_contas_corrente"
+			],
+			[
+				"Conta",
+				"ContaBancaria"
+			],
+			[
+				"m_qtd_contas_",
+				"m_qtd_contas_corrente"
+			],
+			[
+				"vv",
+				"vVoltagem"
+			],
+			[
+				"prin",
+				"print"
+			],
+			[
+				"remove",
+				"removeNode"
+			],
+			[
+				"remo",
+				"removeNode"
+			],
+			[
+				"inser",
+				"insertBegin"
+			],
+			[
+				"set",
+				"setNext"
+			],
+			[
+				"Link",
+				"linkedlist"
+			],
+			[
+				"m_sa",
+				"m_status"
+			],
+			[
+				"li",
+				"m_limitedisponivel"
+			],
+			[
+				"m_li",
+				"m_limitedisponivel"
+			],
+			[
+				"ts",
+				"ts_NaoEspecial"
+			],
+			[
+				"ret",
+				"return"
+			],
+			[
+				"Ti",
+				"TipoStatus"
+			],
+			[
+				"arg",
+				"argc"
+			],
+			[
+				"th",
+				"throw"
+			],
+			[
+				"if",
+				"if\tIf Condition"
+			],
+			[
+				"edn",
+				"endl"
+			],
+			[
+				"m",
+				"m_inicio"
+			],
+			[
+				"Li",
+				"Listar"
+			],
+			[
+				"no",
+				"novo"
+			],
+			[
+				"InserirN",
+				"InserirNaPosicao"
+			],
+			[
+				"Inse",
+				"InserirNoFinal"
+			],
+			[
+				"Lis",
+				"ListaSimplesmenteEncadeada"
+			],
+			[
+				"read",
+				"readline〔function〕"
+			],
+			[
+				"fil",
+				"filename"
+			],
+			[
+				"__",
+				"__len__"
+			],
+			[
+				"print",
+				"printExampleArgs〔function〕"
+			],
+			[
+				"ARG",
+				"ARG_PATH〔variable〕"
+			],
+			[
+				"dir",
+				"diretório"
+			],
+			[
+				"ini",
+				"inexistentes"
+			],
+			[
+				"dire",
+				"diretório"
+			],
+			[
+				"op",
+				"opção"
+			],
+			[
+				"rastre",
+				"rastreio"
+			],
+			[
+				"AR",
+				"ARG_PATH〔variable〕"
+			],
+			[
+				"guarda",
+				"guarda.py"
+			],
+			[
+				"ha",
+				"hashing"
+			],
+			[
+				"se",
+				"self"
+			],
+			[
+				"hash",
+				"hashing"
+			],
+			[
+				"sha",
+				"sha512"
+			],
+			[
+				"AL",
+				"ALTER_ALFA〔variable〕"
+			],
+			[
+				"dh",
+				"dh_b〔variable〕"
+			],
+			[
+				"cal",
+				"calcKeySession〔function〕"
+			],
+			[
+				"O",
+				"Other_PUB"
+			],
+			[
+				"dh_",
+				"dh_c"
+			],
+			[
+				"calc",
+				"calcKeySession"
+			],
+			[
+				"sef",
+				"self.My_PUB"
+			],
+			[
+				"ca",
+				"calcKeySession"
+			],
+			[
+				"PU",
+				"PUB_GROUP"
+			],
+			[
+				"My",
+				"My_PUB〔variable〕"
+			],
+			[
+				"MY",
+				"My_PVT〔variable〕"
+			],
+			[
+				"mensa",
+				"mensagens"
+			],
+			[
+				"NO",
+				"NORMAL〔variable〕"
+			],
+			[
+				"ALTER",
+				"ALTER_PRIMO〔variable〕"
+			],
+			[
+				"cl",
+				"calcPub〔function〕"
+			],
+			[
+				"ALT",
+				"ALTER_PRIMO〔variable〕"
+			],
+			[
+				"data",
+				"data_readable〔variable〕"
+			],
+			[
+				"crip",
+				"criptossistemas"
+			],
+			[
+				"cript",
+				"criptossistema"
+			],
+			[
+				"cri",
+				"criptossistemas"
+			],
+			[
+				"alter",
+				"alterPass〔function〕"
+			],
+			[
+				"A",
+				"ALTER_PASS_DH"
+			],
+			[
+				"ALE",
+				"ALTER_PASS〔variable〕"
+			],
+			[
+				"T",
+				"TipoMov"
+			],
+			[
+				"DIffi",
+				"DiffieHellman"
+			],
+			[
+				"not",
+				"notifyDH〔function〕"
+			],
+			[
+				"troca",
+				"trocaCript"
+			],
+			[
+				"tro",
+				"trocaSenha"
+			],
+			[
+				"pub",
+				"pub_a〔variable〕"
+			],
+			[
+				"hot",
+				"host_port〔variable〕"
+			],
+			[
+				"hos",
+				"host_ip〔variable〕"
+			],
+			[
+				"forma",
+				"formatPass〔function〕"
+			],
+			[
+				"z",
+				"zfill"
+			],
+			[
+				"clie",
+				"client_handler〔variable〕"
+			],
+			[
+				"TIMEO",
+				"TIMEOUT_I"
+			],
+			[
+				"tim",
+				"timeout"
+			],
+			[
+				"fina",
+				"finally〔keyword〕"
+			],
+			[
+				"b",
+				"broadcast_client"
+			],
+			[
+				"me",
+				"mensagem"
+			],
+			[
+				"wri",
+				"writable〔variable〕"
+			],
+			[
+				"messa",
+				"message_queues"
+			],
+			[
+				"host",
+				"host_ip"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "main.cpp",
+			"settings":
+			{
+				"buffer_size": 8330,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
+				"Syntax Check"
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 332.0,
+		"last_filter": "comm",
+		"selected_items":
+		[
+			[
+				"comm",
+				"Git: Commit"
+			],
+			[
+				"add ",
+				"Git: Add All"
+			],
+			[
+				"commit",
+				"Git: Commit history"
+			],
+			[
+				"status",
+				"Git: Status"
+			],
+			[
+				"add",
+				"Git: Add All"
+			],
+			[
+				"commi",
+				"Git: Commit"
+			],
+			[
+				"com",
+				"Git: Commit"
+			],
+			[
+				"log",
+				"Git: Log All"
+			],
+			[
+				"c++",
+				"Set Syntax: C++11"
+			],
+			[
+				"all",
+				"Git: Add All"
+			],
+			[
+				"git",
+				"Git: Add All"
+			],
+			[
+				"make",
+				"Set Syntax: Makefile"
+			],
+			[
+				"statu",
+				"Git: Status"
+			],
+			[
+				"sta",
+				"Git: Status"
+			],
+			[
+				"php",
+				"Set Syntax: PHP"
+			],
+			[
+				"push",
+				"Git: Push Current Branch"
+			],
+			[
+				"ad",
+				"Git: Add All"
+			],
+			[
+				"comi",
+				"Git: Commit"
+			],
+			[
+				"com\t",
+				"Git: Commit"
+			],
+			[
+				"py",
+				"Set Syntax: Python"
+			],
+			[
+				"pytho",
+				"Set Syntax: Python"
+			],
+			[
+				"git log",
+				"Git: Log All"
+			],
+			[
+				"commt",
+				"Git: Commit"
+			],
+			[
+				"git comi",
+				"Git: Commit history"
+			],
+			[
+				"set c",
+				"Set Syntax: C++11"
+			],
+			[
+				"pyt",
+				"Set Syntax: Python"
+			],
+			[
+				"linter",
+				"SublimeLinter: Show All Errors"
+			],
+			[
+				"bracke",
+				"BracketHighlighter: Swap Brackets"
+			],
+			[
+				"python",
+				"Set Syntax: Python"
+			],
+			[
+				"doc",
+				"DocBlockr: Decorate line comment"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"snippet: ",
+				"Snippet: struct"
+			],
+			[
+				"Alignme",
+				"Preferences: Alignment File Settings – User"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"termina",
+				"Terminal: Open"
+			],
+			[
+				"sidebar",
+				"Side Bar: Refresh"
+			],
+			[
+				"termi",
+				"Terminal: Open"
+			],
+			[
+				"packac",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ins",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: in",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 593.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/david/imd0030-projeto2",
+		"/home/david/imd0030-projeto2/include",
+		"/home/david/imd0030-projeto2/include/petfera",
+		"/home/david/imd0030-projeto2/src",
+		"/home/david/imd0030-projeto2/src/petfera"
+	],
+	"file_history":
+	[
+		"/home/david/imd0030-projeto2/src/petfera/pessoa_funcionario.cpp",
+		"/home/david/imd0030-projeto2/src/petfera/pessoa.cpp",
+		"/home/david/imd0030-projeto2/include/petfera/pessoa.h",
+		"/home/david/imd0030-projeto2/makefile",
+		"/home/david/imd0030-projeto2/include/petfera/animal.h",
+		"/home/david/imd0030-projeto2/data/petfera/animais.csv",
+		"/home/david/imd0030-projeto2/data/petfera/animais (copy).csv",
+		"/home/david/imd0030-projeto2/include/petfera/classe_anfibio_exotico.h",
+		"/home/david/imd0030-projeto2/include/petfera/classe_anfibio_nativo.h",
+		"/home/david/imd0030-projeto2/include/petfera/classe_ave_exotico.h",
+		"/home/david/imd0030-projeto2/include/petfera/classe_ave_nativo.h",
+		"/home/david/imd0030-projeto2/include/petfera/classe_mamifero_exotico.h",
+		"/home/david/imd0030-projeto2/include/petfera/classe_mamifero_nativo.h",
+		"/home/david/imd0030-projeto2/include/petfera/classe_reptil_exotico.h",
+		"/home/david/imd0030-projeto2/include/petfera/classe_reptil_nativo.h",
+		"/home/david/imd0030-projeto2/src/petfera/main.cpp",
+		"/home/david/imd0030-projeto2/include/petfera/pessoa_tratador.h",
+		"/home/david/imd0030-projeto2/data/petfera/pessoas (copy).csv",
+		"/home/david/imd0030-projeto2/data/petfera/pessoas.csv",
+		"/home/david/imd0030-projeto2/src/petfera/pessoa_tratador.cpp",
+		"/home/david/imd0030-projeto2/src/petfera/pessoa_veterinario.cpp",
+		"/home/david/imd0030-projeto2/include/petfera/pessoa_funcionario.h",
+		"/home/david/imd0030-projeto2/include/petfera/pessoa_veterinario.h",
+		"/home/david/Downloads/Operador_de_insercao_e_heranca.txt",
+		"/home/david/imd0030-projeto2/src/petfera/classe_anfibio_nativo.cpp",
+		"/home/david/imd0030-projeto2/src/petfera/classe_ave_exotico.cpp",
+		"/home/david/imd0030-projeto2/src/petfera/classe_ave_nativo.cpp",
+		"/home/david/imd0030-projeto2/src/petfera/classe_mamifero_exotico.cpp",
+		"/home/david/imd0030-projeto2/src/petfera/classe_mamifero_nativo.cpp",
+		"/home/david/imd0030-projeto2/src/petfera/classe_anfibio_exotico.cpp",
+		"/home/david/imd0030-projeto2/src/petfera/classe_reptil_exotico.cpp",
+		"/home/david/imd0030-projeto2/src/petfera/classe_reptil_nativo.cpp",
+		"/home/david/imd0030-projeto2/src/petfera/animal.cpp",
+		"/home/david/imd0030-projeto2/include/petfera/classe_anfibio.h",
+		"/home/david/imd0030-projeto2/include/petfera/animal_nativo.h",
+		"/home/david/imd0030-projeto2/src/petfera/classe_reptil.cpp",
+		"/home/david/imd0030-projeto2/include/petfera/classe_reptil.h",
+		"/home/david/imd0030-projeto2/src/petfera/classe_mamifero.cpp",
+		"/home/david/imd0030-projeto2/src/petfera/main_test.cpp",
+		"/home/david/imd0030/avaliacao2/questao01/produto.h",
+		"/home/david/imd0030-projeto2/src/petfera/classe_ave.cpp",
+		"/home/david/imd0030-projeto2/src/petfera/classe_anfibio.cpp",
+		"/home/david/imd0030-projeto2/src/petfera/animal_nativo.cpp",
+		"/home/david/imd0030/imd0030-projeto1/main.cpp",
+		"/home/david/imd0030/lab01/main.cpp",
+		"/home/david/imd0030/lab03/questao01/main.cpp",
+		"/home/david/imd0030/lab04/file.cpp",
+		"/home/david/imd0030-projeto2/include/petfera/classe_ave.h",
+		"/home/david/imd0030-projeto2/include/petfera/classe_mamifero.h",
+		"/home/david/imd0030-projeto2/src/petfera/animal_exotico.cpp",
+		"/home/david/imd0030-projeto2/imd0030-projeto2.sublime-project",
+		"/home/david/imd0030-projeto2/src/petfera/animal_silvestre.cpp",
+		"/home/david/Downloads/modelo_makefile/Makefile",
+		"/home/david/Downloads/modelo_makefile/src/questao01/main1.cpp",
+		"/home/david/Downloads/modelo_makefile/src/questao01/classe12.cpp",
+		"/home/david/Downloads/modelo_makefile/modelo_makefile/Makefile",
+		"/home/david/imd0030-projeto2/makefile_old",
+		"/home/david/imd0030-projeto2/makefile_bkp",
+		"/home/david/imd0029/aula25-TabelaDispersao/HashTable-Resizable/TestTable.cpp",
+		"/home/david/imd0030/aula29 - STL/map.cpp",
+		"/home/david/imd0030/aula29 - STL/string.cpp",
+		"/home/david/imd0030/aula29 - STL/numeric.cpp",
+		"/home/david/imd0030/aula29 - STL/algorithm3.cpp",
+		"/home/david/imd0030/aula29 - STL/algorithm2.cpp",
+		"/home/david/imd0030/aula29 - STL/algorithm1.cpp",
+		"/home/david/imd0030-projeto2/main.cpp",
+		"/home/david/imd0030-projeto2/classe_reptil_exotico.cpp",
+		"/home/david/imd0030-projeto2/classe_mamifero_exotico.cpp",
+		"/home/david/imd0030-projeto2/pessoa.h",
+		"/home/david/imd0030-projeto2/pessoa_funcionario.h",
+		"/home/david/imd0030-projeto2/pessoa_tratador.h",
+		"/home/david/imd0030-projeto2/pessoa_veterinario.h",
+		"/home/david/imd0030-projeto2/pessoa_tratador.cpp",
+		"/home/david/imd0030-projeto2/pessoa_veterinario.cpp",
+		"/home/david/imd0030-projeto2/animal.h",
+		"/home/david/imd0030-projeto2/animal_silvestre.h",
+		"/home/david/imd0030-projeto2/classe_reptil_exotico.h",
+		"/home/david/imd0030-projeto2/classe_reptil.h",
+		"/home/david/imd0030-projeto2/animal.cpp",
+		"/home/david/imd0030-projeto2/pessoa.cpp",
+		"/home/david/imd0030-projeto2/pessoa_funcionario.cpp",
+		"/home/david/imd0030-projeto2/classe_reptil.cpp",
+		"/home/david/imd0030-projeto2/animal_exotico.h",
+		"/home/david/imd0030-projeto2/animal_exotico.cpp",
+		"/home/david/imd0030-projeto2/listagem.h",
+		"/home/david/imd0030-projeto2/listagem.cpp",
+		"/home/david/imd0030-projeto2/classe_mamifero_nativo.h",
+		"/home/david/imd0030-projeto2/classe_mamifero_nativo.cpp",
+		"/home/david/imd0030-projeto2/classe_mamifero.h",
+		"/home/david/imd0030-projeto2/classe_mamifero.cpp",
+		"/home/david/imd0030-projeto2/classe_ave_nativo.cpp",
+		"/home/david/imd0030-projeto2/classe_ave.h",
+		"/home/david/imd0030-projeto2/classe_ave_nativo.h",
+		"/home/david/imd0030-projeto2/classe_anfibio.cpp",
+		"/home/david/imd0030-projeto2/animal_nativo.cpp",
+		"/home/david/imd0030-projeto2/animal_nativo.h",
+		"/home/david/imd0030-projeto2/classe_reptil_nativo.h",
+		"/home/david/imd0030-projeto2/classe_reptil_nativo.cpp",
+		"/home/david/imd0030-projeto2/classe_mamifero_exotico.h",
+		"/home/david/imd0030-projeto2/classe_ave.cpp",
+		"/home/david/imd0030-projeto2/classe_ave_exotico.h",
+		"/home/david/imd0030-projeto2/classe_ave_exotico.cpp",
+		"/home/david/imd0030-projeto2/classe_anfibio_nativo.h",
+		"/home/david/imd0030-projeto2/classe_anfibio_nativo.cpp",
+		"/home/david/imd0030-projeto2/classe_anfibio_exotico.cpp",
+		"/home/david/imd0030-projeto2/classe_anfibio_exotico.h",
+		"/home/david/imd0030-projeto2/classe_anfibio.h",
+		"/home/david/imd0030-projeto2/animal_silvestre.cpp",
+		"/home/david/imd0030-projeto2/_README.md",
+		"/home/david/imd0029/aula25/HashTable/HashEntry.h",
+		"/home/david/imd0030-projeto2/documentation/Projeto de Programacao II.pdf",
+		"/home/david/imd0030-projeto2/.gitignore",
+		"/home/david/imd0030-projeto2/Doxyfile",
+		"/home/david/imd0030/lab07/contapoupanca.cpp",
+		"/home/david/imd0030/lab07/agencia.h",
+		"/home/david/imd0030/lab07/contapoupanca.h",
+		"/home/david/imd0030/lab07/contabancaria.cpp",
+		"/home/david/imd0030/lab07/contacorrente.cpp",
+		"/home/david/imd0030/lab07/contacorrente.h",
+		"/home/david/imd0030/lab07/makefile",
+		"/home/david/imd0030/lab07/contabancaria.h",
+		"/home/david/imd0030/avaliacao2/questao01/Doxyfile",
+		"/home/david/imd0030/avaliacao2/questao01/makefile",
+		"/home/david/imd0030/avaliacao2/questao01/produto.cpp",
+		"/home/david/imd0030/avaliacao2/questao01/livro.h",
+		"/home/david/imd0030/avaliacao2/questao01/cd.cpp",
+		"/home/david/imd0030/avaliacao2/questao01/cd.h",
+		"/home/david/imd0030/avaliacao2/questao01/dvd.cpp"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 90.0,
+		"where_history":
+		[
+			"/home/david/imd0030"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			": \" << this->",
+			"veterinario, pessoas.back(),",
+			"stof(v[7]), pessoas.back(),",
+			"animais",
+			"../../include/petfera/",
+			"lista",
+			"pessoa_veterinario",
+			"venenoso",
+			"tipo_veneno",
+			"veneno",
+			"tipo",
+			"veneno",
+			"Reptil",
+			"07",
+			"Reptil",
+			"Mamifero",
+			"Anfibio",
+			"Ave",
+			"Anfibio",
+			"m_base_date",
+			"();",
+			"m_data_base",
+			"getValor",
+			"autor",
+			"Autor",
+			"autor",
+			"Livro",
+			"livro",
+			"CD",
+			"DVD",
+			"Livro",
+			"LIVRO",
+			"editora",
+			"autor",
+			"Autor",
+			"Editora",
+			"Autor",
+			"Livro",
+			"LIVRO_H",
+			"Descricao",
+			"Valor",
+			"Descricao",
+			"Valor",
+			"m_valor",
+			"m_descricao",
+			"vestuario",
+			"alimento",
+			"eletronico",
+			"\" \t",
+			"NULL",
+			"getContaPoupanca",
+			"getContaCorrente",
+			"m_contas_poupanca",
+			"m_contas_corrente",
+			"m_qtd_contas_poupanca",
+			"m_qtd_contas_corrente",
+			"getQtdContas",
+			"m_contas",
+			"ContaCorrente",
+			" = 0",
+			"valor",
+			"descricao",
+			"ContaBancaria",
+			"contabancaria",
+			"CONTABANCARIA_H",
+			"contabancaria",
+			"ContaBancaria",
+			"ContaCorrente",
+			"contacorrente",
+			"ContaBancaria",
+			"@brief \t",
+			"d_valor",
+			"s_valor",
+			"t_descricao",
+			"s_descricao",
+			"d_descricao",
+			"ContaBancaria",
+			"insertOr",
+			"new LinkedList()",
+			" LinkedList<string>*",
+			"LinkedList*",
+			"LinkedList::",
+			"string",
+			"<string>",
+			"TIPO",
+			"std::string",
+			"swap",
+			"do nó",
+			"do n",
+			"do nó",
+			"this->",
+			"this.",
+			"Movimentacao",
+			"MOVIMENTACAO_H",
+			"getHe",
+			"$lng",
+			"$intOrgao",
+			"$intIdOrgao",
+			"$lng",
+			"lngOrgao",
+			"lngIdOrgao",
+			"Unidade",
+			"k",
+			"método",
+			"created",
+			"author",
+			"print '",
+			"mmap",
+			"datetime",
+			"shutil",
+			"collections",
+			"shutil",
+			"opção",
+			"inexistente",
+			"track",
+			"\n\t\t\t",
+			"printDictHMAC",
+			"__select_hash",
+			"self.func",
+			"self.key",
+			"temp_file",
+			"hashing",
+			"HMAC_OBJECT",
+			"MAC_OBJECT",
+			"matches",
+			"mac_object",
+			"ARG_DIR",
+			"ARG_PATH"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			":\\t\" << this->",
+			"veterinario, tratador,",
+			"stof(v[7]), veterinario,",
+			"veterinario",
+			"",
+			"ReptilNativo",
+			"ReptilExotico",
+			"MamiferoNativo",
+			"MamiferoExotico",
+			"AnfibioNativo",
+			"AnfibioExotico",
+			"AveNativo",
+			"Reptil",
+			"Mamifero",
+			"Ave",
+			"m_base_date",
+			"getPreco",
+			"duracao",
+			"Duracao",
+			"duracao",
+			"DVD",
+			"CD",
+			"num_faixas",
+			"estilo",
+			"Estilo",
+			"NumFaixas",
+			"Estilo",
+			"DVD",
+			"DVD_H",
+			"Titulo",
+			"Preco",
+			"Titulo",
+			"Preco",
+			"m_preco",
+			"m_titulo",
+			"livro",
+			"dvd",
+			"cd",
+			"getConta",
+			"m_contas",
+			"m_qtd_contas",
+			"",
+			"m_valor",
+			"m_descricao",
+			"ContaCorrente",
+			"contapoupanca",
+			"CONTAPOUPANCA_H",
+			"CONTACORRENTE_H",
+			"contapoupanca",
+			"ContaPoupanca",
+			"contapoupanca",
+			"ContaCorrente",
+			"",
+			"valor",
+			"descricao",
+			"Agencia",
+			"new LinkedList<string>()",
+			"LinkedList<string>*",
+			"LinkedList<TIPO>::",
+			"TIPO",
+			"<TIPO>",
+			"TIPO",
+			"",
+			"ContaBancaria",
+			"CONTABANCARIA_H",
+			"$int",
+			"$intIdOrgao",
+			"$int",
+			"intOrgao",
+			"MÉTODO",
+			"",
+			"printHMAC",
+			"select_hash",
+			"self.__func",
+			"self.__key",
+			"track_file",
+			"hash",
+			"HMAC_OBJ",
+			"HMAC_OBJECT",
+			"MATCHES",
+			"MAC_OBJECT",
+			"ARG_PATH",
+			"hashing",
+			"hashlib.sha512",
+			"T",
+			"Vetor",
+			"VETOR_H",
+			"KEY_SESSION",
+			"Group_PUB",
+			"GROUP_PUB",
+			"DEBUG",
+			"#<",
+			"My_DH.My_PUB",
+			"My_DH.My_PVT",
+			"My_DH.Other_PUB",
+			"ALTER_PASS_DH",
+			"handler",
+			"movimentacao",
+			"Movimentacao",
+			"result",
+			"SDES",
+			"Método",
+			"data_readable",
+			"data_decript",
+			"ALTER_CRIPT",
+			"ALTER_PASS",
+			"'[TROCASENHA]'",
+			"642",
+			"TIMEOUT_T",
+			"PASS_SDES",
+			"PASS_RC4",
+			"PASS_SDES",
+			"PASS_RC4",
+			"data_cript",
+			"TIMEOUT_E",
+			"TIMEOUT_T",
+			"handlerThread",
+			"broadcastClient",
+			"feedbackClient",
+			"readInputSend",
+			"handlerThread",
+			"% (data, ENDL)",
+			"%s",
+			"TIMEOUT_MS",
+			"qtd_pulos",
+			"distancia",
+			"Identificador",
+			"identificador"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "main.cpp",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 8330,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2649,
+								2649
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content"
+							],
+							"syntax": "Packages/C++11/C++11.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 585.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 34.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.CppBuilder":
+	{
+		"height": 100.0
+	},
+	"output.exec":
+	{
+		"height": 165.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.git":
+	{
+		"height": 100.0
+	},
+	"pinned_build_system": "",
+	"project": "imd0030-projeto2.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"exportfola",
+				"folha/control/exportacaofolha.php"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 274.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

@@ -1,0 +1,90 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.12"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Pet Fera: Código-Fonte de include/petfera/pessoa.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="logo-ufrn-imd.png"/></td>
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">Pet Fera
+   &#160;<span id="projectnumber">Projeto 3</span>
+   </div>
+   <div id="projectbrief">IMD0030 LP1 BTI UFRN</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Gerado por Doxygen 1.8.12 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Busca');
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+$(function() {
+  initMenu('',true,false,'search.php','Busca');
+  $(document).ready(function() { init_search(); });
+});
+</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_d44c64559bbebec7f509842c48db8b23.html">include</a></li><li class="navelem"><a class="el" href="dir_836014e4d18f05a06d831fa3ea489ebb.html">petfera</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="headertitle">
+<div class="title">pessoa.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="pessoa_8h.html">Vá para a documentação deste arquivo.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;</div><div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="preprocessor">#ifndef PESSOA_H</span></div><div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="preprocessor">#define PESSOA_H</span></div><div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="preprocessor">#pragma once</span></div><div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;</div><div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<span class="preprocessor">#include &lt;iostream&gt;</span></div><div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="preprocessor">#include &lt;string&gt;</span></div><div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;</div><div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;<span class="keyword">using namespace </span><a class="code" href="namespacestd.html">std</a>;</div><div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;</div><div class="line"><a name="l00024"></a><span class="lineno"><a class="line" href="classPessoa.html">   24</a></span>&#160;<span class="keyword">class </span><a class="code" href="classPessoa.html">Pessoa</a></div><div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;{</div><div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;<span class="keyword">private</span>:</div><div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;    <span class="keyword">virtual</span> std::ostream&amp; print(std::ostream&amp;) <span class="keyword">const</span> = 0;</div><div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;</div><div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;<span class="keyword">protected</span>:</div><div class="line"><a name="l00030"></a><span class="lineno"><a class="line" href="classPessoa.html#a4f245d89c81f34cbafd39d9c78251c09">   30</a></span>&#160;    <span class="keywordtype">int</span>     <a class="code" href="classPessoa.html#a4f245d89c81f34cbafd39d9c78251c09">m_id</a>;</div><div class="line"><a name="l00031"></a><span class="lineno"><a class="line" href="classPessoa.html#a6e429643054a0ba5239ee257e2c8bb80">   31</a></span>&#160;    <span class="keywordtype">string</span>  <a class="code" href="classPessoa.html#a6e429643054a0ba5239ee257e2c8bb80">m_funcao</a>;</div><div class="line"><a name="l00032"></a><span class="lineno"><a class="line" href="classPessoa.html#a432f9981353f88c03a689fc6b402352d">   32</a></span>&#160;    <span class="keywordtype">string</span>  <a class="code" href="classPessoa.html#a432f9981353f88c03a689fc6b402352d">m_nome</a>;</div><div class="line"><a name="l00033"></a><span class="lineno"><a class="line" href="classPessoa.html#a000a82d9cafc58c2bc37c5dc54cd9ce4">   33</a></span>&#160;    <span class="keywordtype">string</span>  <a class="code" href="classPessoa.html#a000a82d9cafc58c2bc37c5dc54cd9ce4">m_cpf</a>;</div><div class="line"><a name="l00034"></a><span class="lineno"><a class="line" href="classPessoa.html#af83fbce20cd7f1fe0768c762d7474cc3">   34</a></span>&#160;    <span class="keywordtype">string</span>  <a class="code" href="classPessoa.html#af83fbce20cd7f1fe0768c762d7474cc3">m_tipo_sangue</a>;</div><div class="line"><a name="l00035"></a><span class="lineno"><a class="line" href="classPessoa.html#a8b956e3d838cd8088aabb5df73e373cb">   35</a></span>&#160;    <span class="keywordtype">short</span>   <a class="code" href="classPessoa.html#a8b956e3d838cd8088aabb5df73e373cb">m_idade</a>;</div><div class="line"><a name="l00036"></a><span class="lineno"><a class="line" href="classPessoa.html#ae427970ed766f3e59e803ffca112076c">   36</a></span>&#160;    <span class="keywordtype">char</span>    <a class="code" href="classPessoa.html#ae427970ed766f3e59e803ffca112076c">m_fator_rh</a>;</div><div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;</div><div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;<span class="keyword">public</span>:</div><div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;</div><div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;    <a class="code" href="classPessoa.html">Pessoa</a>(<span class="keywordtype">int</span>, <span class="keywordtype">string</span>, <span class="keywordtype">string</span>, <span class="keywordtype">string</span>, <span class="keywordtype">string</span>, <span class="keywordtype">short</span>, <span class="keywordtype">char</span>);</div><div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;</div><div class="line"><a name="l00048"></a><span class="lineno"><a class="line" href="classPessoa.html#a1ffb74538d4ca9015ed38ee1136e3117">   48</a></span>&#160;    <span class="keyword">virtual</span> <a class="code" href="classPessoa.html#a1ffb74538d4ca9015ed38ee1136e3117">~Pessoa</a>(){};</div><div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;</div><div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;    <span class="comment">// getters</span></div><div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;    </div><div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;    <span class="keywordtype">int</span>     getID(<span class="keywordtype">void</span>);</div><div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;    <span class="keywordtype">string</span>  getFuncao(<span class="keywordtype">void</span>);</div><div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;    <span class="keywordtype">string</span>  getNome(<span class="keywordtype">void</span>);</div><div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;    <span class="keywordtype">string</span>  getCPF(<span class="keywordtype">void</span>);</div><div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;    <span class="keywordtype">string</span>  getTipoSangue(<span class="keywordtype">void</span>);</div><div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;    <span class="keywordtype">short</span>   getIdade(<span class="keywordtype">void</span>);</div><div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;    <span class="keywordtype">char</span>    getFatorRH(<span class="keywordtype">void</span>);</div><div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;</div><div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;    <span class="comment">// setters</span></div><div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;    </div><div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;    <span class="keywordtype">void</span>    setID(<span class="keywordtype">int</span>);</div><div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;    <span class="keywordtype">void</span>    setFuncao(<span class="keywordtype">string</span>);</div><div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;    <span class="keywordtype">void</span>    setNome(<span class="keywordtype">string</span>);</div><div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;    <span class="keywordtype">void</span>    setCPF(<span class="keywordtype">string</span>);</div><div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;    <span class="keywordtype">void</span>    setTipoSangue(<span class="keywordtype">string</span>);</div><div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;    <span class="keywordtype">void</span>    setIdade(<span class="keywordtype">short</span>);</div><div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;    <span class="keywordtype">void</span>    setFatorRH(<span class="keywordtype">char</span>);</div><div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;</div><div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;    <span class="comment">// print</span></div><div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">void</span>        printPessoa(<span class="keywordtype">void</span>) = 0;</div><div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;    </div><div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;</div><div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;    <span class="comment">// operadores</span></div><div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;    <span class="keywordtype">bool</span>    operator== (<span class="keywordtype">int</span> <span class="keywordtype">id</span>);</div><div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;    <a class="code" href="classPessoa.html">Pessoa</a>* operator&lt; (<a class="code" href="classPessoa.html">Pessoa</a>* p);</div><div class="line"><a name="l00077"></a><span class="lineno"><a class="line" href="classPessoa.html#a3ecd501c2c229e3cc208542b846b2d0a">   77</a></span>&#160;    <span class="keyword">friend</span> std::ostream&amp; operator &lt;&lt; (std::ostream&amp; os, <span class="keyword">const</span> <a class="code" href="classPessoa.html">Pessoa</a>&amp; b) {</div><div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;        <span class="keywordflow">return</span> b.print(os); <span class="comment">// polymorphic print via reference</span></div><div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;    }</div><div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;};</div><div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160; </div><div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160; </div><div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;<span class="preprocessor">#endif // PESSOA_H</span></div><div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;<span class="preprocessor"> </span></div><div class="ttc" id="classPessoa_html_a432f9981353f88c03a689fc6b402352d"><div class="ttname"><a href="classPessoa.html#a432f9981353f88c03a689fc6b402352d">Pessoa::m_nome</a></div><div class="ttdeci">string m_nome</div><div class="ttdef"><b>Definition:</b> pessoa.h:32</div></div>
+<div class="ttc" id="classPessoa_html_a8b956e3d838cd8088aabb5df73e373cb"><div class="ttname"><a href="classPessoa.html#a8b956e3d838cd8088aabb5df73e373cb">Pessoa::m_idade</a></div><div class="ttdeci">short m_idade</div><div class="ttdef"><b>Definition:</b> pessoa.h:35</div></div>
+<div class="ttc" id="classPessoa_html_af83fbce20cd7f1fe0768c762d7474cc3"><div class="ttname"><a href="classPessoa.html#af83fbce20cd7f1fe0768c762d7474cc3">Pessoa::m_tipo_sangue</a></div><div class="ttdeci">string m_tipo_sangue</div><div class="ttdef"><b>Definition:</b> pessoa.h:34</div></div>
+<div class="ttc" id="namespacestd_html"><div class="ttname"><a href="namespacestd.html">std</a></div></div>
+<div class="ttc" id="classPessoa_html_a1ffb74538d4ca9015ed38ee1136e3117"><div class="ttname"><a href="classPessoa.html#a1ffb74538d4ca9015ed38ee1136e3117">Pessoa::~Pessoa</a></div><div class="ttdeci">virtual ~Pessoa()</div><div class="ttdef"><b>Definition:</b> pessoa.h:48</div></div>
+<div class="ttc" id="classPessoa_html"><div class="ttname"><a href="classPessoa.html">Pessoa</a></div><div class="ttdef"><b>Definition:</b> pessoa.h:24</div></div>
+<div class="ttc" id="classPessoa_html_a4f245d89c81f34cbafd39d9c78251c09"><div class="ttname"><a href="classPessoa.html#a4f245d89c81f34cbafd39d9c78251c09">Pessoa::m_id</a></div><div class="ttdeci">int m_id</div><div class="ttdef"><b>Definition:</b> pessoa.h:30</div></div>
+<div class="ttc" id="classPessoa_html_ae427970ed766f3e59e803ffca112076c"><div class="ttname"><a href="classPessoa.html#ae427970ed766f3e59e803ffca112076c">Pessoa::m_fator_rh</a></div><div class="ttdeci">char m_fator_rh</div><div class="ttdef"><b>Definition:</b> pessoa.h:36</div></div>
+<div class="ttc" id="classPessoa_html_a000a82d9cafc58c2bc37c5dc54cd9ce4"><div class="ttname"><a href="classPessoa.html#a000a82d9cafc58c2bc37c5dc54cd9ce4">Pessoa::m_cpf</a></div><div class="ttdeci">string m_cpf</div><div class="ttdef"><b>Definition:</b> pessoa.h:33</div></div>
+<div class="ttc" id="classPessoa_html_a6e429643054a0ba5239ee257e2c8bb80"><div class="ttname"><a href="classPessoa.html#a6e429643054a0ba5239ee257e2c8bb80">Pessoa::m_funcao</a></div><div class="ttdeci">string m_funcao</div><div class="ttdef"><b>Definition:</b> pessoa.h:31</div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Gerado por &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.12
+</small></address>
+</body>
+</html>

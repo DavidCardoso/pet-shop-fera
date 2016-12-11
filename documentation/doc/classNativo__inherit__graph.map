@@ -1,0 +1,7 @@
+<map id="Nativo" name="Nativo">
+<area shape="rect" id="node3" href="$classAnfibioNativo.html" title="AnfibioNativo" alt="" coords="5,155,105,181"/>
+<area shape="rect" id="node4" href="$classAveNativo.html" title="AveNativo" alt="" coords="130,155,213,181"/>
+<area shape="rect" id="node5" href="$classMamiferoNativo.html" title="MamiferoNativo" alt="" coords="237,155,351,181"/>
+<area shape="rect" id="node6" href="$classReptilNativo.html" title="ReptilNativo" alt="" coords="376,155,471,181"/>
+<area shape="rect" id="node2" href="$classSilvestre.html" title="Silvestre" alt="" coords="196,5,269,32"/>
+</map>

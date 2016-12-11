@@ -1,0 +1,105 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.12"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Pet Fera: Código-Fonte de include/petfera/classe_ave_nativo.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="logo-ufrn-imd.png"/></td>
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">Pet Fera
+   &#160;<span id="projectnumber">Projeto 3</span>
+   </div>
+   <div id="projectbrief">IMD0030 LP1 BTI UFRN</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Gerado por Doxygen 1.8.12 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Busca');
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+$(function() {
+  initMenu('',true,false,'search.php','Busca');
+  $(document).ready(function() { init_search(); });
+});
+</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_d44c64559bbebec7f509842c48db8b23.html">include</a></li><li class="navelem"><a class="el" href="dir_836014e4d18f05a06d831fa3ea489ebb.html">petfera</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="headertitle">
+<div class="title">classe_ave_nativo.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="classe__ave__nativo_8h.html">Vá para a documentação deste arquivo.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;</div><div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="preprocessor">#ifndef CLASSE_AVE_NATIVO_H</span></div><div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="preprocessor">#define CLASSE_AVE_NATIVO_H</span></div><div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="preprocessor">#pragma once</span></div><div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;</div><div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="classe__ave_8h.html">classe_ave.h</a>&quot;</span></div><div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="animal__nativo_8h.html">animal_nativo.h</a>&quot;</span></div><div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;</div><div class="line"><a name="l00022"></a><span class="lineno"><a class="line" href="classAveNativo.html">   22</a></span>&#160;<span class="keyword">class </span><a class="code" href="classAveNativo.html">AveNativo</a>: <span class="keyword">public</span> <a class="code" href="classAve.html">Ave</a>, <a class="code" href="classNativo.html">Nativo</a></div><div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;{</div><div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;<span class="keyword">private</span>:</div><div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;    ostream&amp; print(ostream&amp; os)<span class="keyword"> const </span>{</div><div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;        <span class="keywordflow">return</span> os &lt;&lt; this-&gt;<a class="code" href="classAnimal.html#a1a39448480e098fc74b5b67c4921a5ec">m_id</a> &lt;&lt; <span class="stringliteral">&quot;;&quot;</span> </div><div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;                  &lt;&lt; this-&gt;<a class="code" href="classAnimal.html#a46c2a87591d201f67a6ddd0db794cc44">m_classe</a> &lt;&lt; <span class="stringliteral">&quot;;&quot;</span> </div><div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;                  &lt;&lt; this-&gt;<a class="code" href="classAnimal.html#a65e3ea644e30d5e193029e4578ead704">m_nome</a> &lt;&lt; <span class="stringliteral">&quot;;&quot;</span> </div><div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;                  &lt;&lt; this-&gt;<a class="code" href="classAnimal.html#ae9e8ef775da019c9065a2848bd37f8ce">m_cientifico</a> &lt;&lt; <span class="stringliteral">&quot;;&quot;</span> </div><div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;                  &lt;&lt; this-&gt;<a class="code" href="classAnimal.html#a4586ed911ed0a966f0e4620297c09bb1">m_batismo</a> &lt;&lt; <span class="stringliteral">&quot;;&quot;</span> </div><div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;                  &lt;&lt; this-&gt;<a class="code" href="classAnimal.html#a6bcc4913ef54988ddc4e938c6033ff35">m_dieta</a> &lt;&lt; <span class="stringliteral">&quot;;&quot;</span> </div><div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;                  &lt;&lt; this-&gt;<a class="code" href="classAnimal.html#aaa6d77e661ed0fa9a33500588c8acfef">m_sexo</a> &lt;&lt; <span class="stringliteral">&quot;;&quot;</span> </div><div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;                  &lt;&lt; this-&gt;<a class="code" href="classAnimal.html#a71fd9457daf254c18e2971430681f33f">m_tamanho</a> &lt;&lt; <span class="stringliteral">&quot;;&quot;</span> </div><div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;                  &lt;&lt; (this-&gt;<a class="code" href="classAnimal.html#accb67855e402ad7fcc956cc23383f66c">m_veterinario</a>!=<span class="keyword">nullptr</span>?this-&gt;<a class="code" href="classAnimal.html#accb67855e402ad7fcc956cc23383f66c">m_veterinario</a>-&gt;<a class="code" href="classPessoa.html#a07bd8262333fd07ca6fea437f40a7212">getID</a>():0) &lt;&lt; <span class="stringliteral">&quot;;&quot;</span> </div><div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;                  &lt;&lt; (this-&gt;<a class="code" href="classAnimal.html#aabfbae2ac4e7e31786183162beb3d5f2">m_tratador</a>!=<span class="keyword">nullptr</span>?this-&gt;<a class="code" href="classAnimal.html#aabfbae2ac4e7e31786183162beb3d5f2">m_tratador</a>-&gt;<a class="code" href="classPessoa.html#a07bd8262333fd07ca6fea437f40a7212">getID</a>():0) &lt;&lt; <span class="stringliteral">&quot;;&quot;</span> </div><div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;                  &lt;&lt; this-&gt;<a class="code" href="classAve.html#a4e88b22978ac373a002f82bd623a9d52">m_tamanho_bico</a> &lt;&lt; <span class="stringliteral">&quot;;&quot;</span></div><div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;                  &lt;&lt; this-&gt;<a class="code" href="classAve.html#a9f1754fe24207da890a37dd59f1c49b5">m_envergadura</a> &lt;&lt; <span class="stringliteral">&quot;;&quot;</span></div><div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;                  &lt;&lt; this-&gt;<a class="code" href="classSilvestre.html#a96b2bfc72b356a3a10f1b5088a397f69">m_ibama</a> &lt;&lt; <span class="stringliteral">&quot;;&quot;</span></div><div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;                  &lt;&lt; this-&gt;<a class="code" href="classNativo.html#a8d654ca869b793ca645423ee48a31ec2">m_uf_origem</a> &lt;&lt; <span class="stringliteral">&quot;;&quot;</span></div><div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;                  &lt;&lt; this-&gt;<a class="code" href="classNativo.html#a0903ae7259ec40fbe7af6d02a4902dd6">m_autorizacao</a> &lt;&lt; <span class="stringliteral">&quot;&quot;</span></div><div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;                  &lt;&lt; endl;</div><div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;        }</div><div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;</div><div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;<span class="keyword">public</span>:</div><div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;</div><div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;    <a class="code" href="classAveNativo.html#af1ed7b00467f9461e37649b21d25256e">AveNativo</a>(<span class="keywordtype">int</span> <span class="keywordtype">id</span>, <span class="keywordtype">string</span> classe, <span class="keywordtype">string</span> batismo);</div><div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;</div><div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;    <a class="code" href="classAveNativo.html#af1ed7b00467f9461e37649b21d25256e">AveNativo</a>(<span class="keywordtype">int</span>, <span class="keywordtype">string</span>, <span class="keywordtype">string</span>, <span class="keywordtype">string</span>, <span class="keywordtype">string</span>, <span class="keywordtype">string</span>, <span class="keywordtype">char</span>, <span class="keywordtype">float</span>, <a class="code" href="classPessoa.html">Pessoa</a>*, <a class="code" href="classPessoa.html">Pessoa</a>*, <span class="keywordtype">int</span>, <span class="keywordtype">int</span>, <span class="keywordtype">string</span>, <span class="keywordtype">string</span>, <span class="keywordtype">string</span>);</div><div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;</div><div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;    <a class="code" href="classAveNativo.html#a3a1ebe2fd7ce2d879953868bc50f89a5">~AveNativo</a>();</div><div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;</div><div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;    <span class="comment">// print</span></div><div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;    <span class="keywordtype">void</span>    <a class="code" href="classAveNativo.html#a445d94168640bb36dbb34b60906fc42e">printAnimal</a>(<span class="keywordtype">void</span>);</div><div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;    </div><div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;};</div><div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;</div><div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;<span class="preprocessor">#endif // CLASSE_AVE_NATIVO_H</span></div><div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;<span class="preprocessor"> </span></div><div class="ttc" id="classe__ave_8h_html"><div class="ttname"><a href="classe__ave_8h.html">classe_ave.h</a></div><div class="ttdoc">Classe abstrata Ave. </div></div>
+<div class="ttc" id="classAve_html_a4e88b22978ac373a002f82bd623a9d52"><div class="ttname"><a href="classAve.html#a4e88b22978ac373a002f82bd623a9d52">Ave::m_tamanho_bico</a></div><div class="ttdeci">int m_tamanho_bico</div><div class="ttdef"><b>Definition:</b> classe_ave.h:25</div></div>
+<div class="ttc" id="classPessoa_html_a07bd8262333fd07ca6fea437f40a7212"><div class="ttname"><a href="classPessoa.html#a07bd8262333fd07ca6fea437f40a7212">Pessoa::getID</a></div><div class="ttdeci">int getID(void)</div><div class="ttdef"><b>Definition:</b> pessoa.cpp:41</div></div>
+<div class="ttc" id="classAveNativo_html_af1ed7b00467f9461e37649b21d25256e"><div class="ttname"><a href="classAveNativo.html#af1ed7b00467f9461e37649b21d25256e">AveNativo::AveNativo</a></div><div class="ttdeci">AveNativo(int id, string classe, string batismo)</div><div class="ttdef"><b>Definition:</b> classe_ave_nativo.cpp:17</div></div>
+<div class="ttc" id="classAnimal_html_a4586ed911ed0a966f0e4620297c09bb1"><div class="ttname"><a href="classAnimal.html#a4586ed911ed0a966f0e4620297c09bb1">Animal::m_batismo</a></div><div class="ttdeci">string m_batismo</div><div class="ttdef"><b>Definition:</b> animal.h:36</div></div>
+<div class="ttc" id="classAveNativo_html_a3a1ebe2fd7ce2d879953868bc50f89a5"><div class="ttname"><a href="classAveNativo.html#a3a1ebe2fd7ce2d879953868bc50f89a5">AveNativo::~AveNativo</a></div><div class="ttdeci">~AveNativo()</div><div class="ttdef"><b>Definition:</b> classe_ave_nativo.cpp:32</div></div>
+<div class="ttc" id="classAnimal_html_a6bcc4913ef54988ddc4e938c6033ff35"><div class="ttname"><a href="classAnimal.html#a6bcc4913ef54988ddc4e938c6033ff35">Animal::m_dieta</a></div><div class="ttdeci">string m_dieta</div><div class="ttdef"><b>Definition:</b> animal.h:37</div></div>
+<div class="ttc" id="animal__nativo_8h_html"><div class="ttname"><a href="animal__nativo_8h.html">animal_nativo.h</a></div><div class="ttdoc">Classe abstrata Nativo. </div></div>
+<div class="ttc" id="classNativo_html"><div class="ttname"><a href="classNativo.html">Nativo</a></div><div class="ttdef"><b>Definition:</b> animal_nativo.h:21</div></div>
+<div class="ttc" id="classNativo_html_a0903ae7259ec40fbe7af6d02a4902dd6"><div class="ttname"><a href="classNativo.html#a0903ae7259ec40fbe7af6d02a4902dd6">Nativo::m_autorizacao</a></div><div class="ttdeci">string m_autorizacao</div><div class="ttdef"><b>Definition:</b> animal_nativo.h:26</div></div>
+<div class="ttc" id="classAnimal_html_a46c2a87591d201f67a6ddd0db794cc44"><div class="ttname"><a href="classAnimal.html#a46c2a87591d201f67a6ddd0db794cc44">Animal::m_classe</a></div><div class="ttdeci">string m_classe</div><div class="ttdef"><b>Definition:</b> animal.h:33</div></div>
+<div class="ttc" id="classAnimal_html_aabfbae2ac4e7e31786183162beb3d5f2"><div class="ttname"><a href="classAnimal.html#aabfbae2ac4e7e31786183162beb3d5f2">Animal::m_tratador</a></div><div class="ttdeci">Pessoa * m_tratador</div><div class="ttdef"><b>Definition:</b> animal.h:41</div></div>
+<div class="ttc" id="classNativo_html_a8d654ca869b793ca645423ee48a31ec2"><div class="ttname"><a href="classNativo.html#a8d654ca869b793ca645423ee48a31ec2">Nativo::m_uf_origem</a></div><div class="ttdeci">string m_uf_origem</div><div class="ttdef"><b>Definition:</b> animal_nativo.h:25</div></div>
+<div class="ttc" id="classPessoa_html"><div class="ttname"><a href="classPessoa.html">Pessoa</a></div><div class="ttdef"><b>Definition:</b> pessoa.h:24</div></div>
+<div class="ttc" id="classAveNativo_html"><div class="ttname"><a href="classAveNativo.html">AveNativo</a></div><div class="ttdef"><b>Definition:</b> classe_ave_nativo.h:22</div></div>
+<div class="ttc" id="classAnimal_html_accb67855e402ad7fcc956cc23383f66c"><div class="ttname"><a href="classAnimal.html#accb67855e402ad7fcc956cc23383f66c">Animal::m_veterinario</a></div><div class="ttdeci">Pessoa * m_veterinario</div><div class="ttdef"><b>Definition:</b> animal.h:40</div></div>
+<div class="ttc" id="classAnimal_html_a71fd9457daf254c18e2971430681f33f"><div class="ttname"><a href="classAnimal.html#a71fd9457daf254c18e2971430681f33f">Animal::m_tamanho</a></div><div class="ttdeci">float m_tamanho</div><div class="ttdef"><b>Definition:</b> animal.h:39</div></div>
+<div class="ttc" id="classAnimal_html_a1a39448480e098fc74b5b67c4921a5ec"><div class="ttname"><a href="classAnimal.html#a1a39448480e098fc74b5b67c4921a5ec">Animal::m_id</a></div><div class="ttdeci">int m_id</div><div class="ttdef"><b>Definition:</b> animal.h:32</div></div>
+<div class="ttc" id="classAve_html_a9f1754fe24207da890a37dd59f1c49b5"><div class="ttname"><a href="classAve.html#a9f1754fe24207da890a37dd59f1c49b5">Ave::m_envergadura</a></div><div class="ttdeci">int m_envergadura</div><div class="ttdef"><b>Definition:</b> classe_ave.h:26</div></div>
+<div class="ttc" id="classAnimal_html_ae9e8ef775da019c9065a2848bd37f8ce"><div class="ttname"><a href="classAnimal.html#ae9e8ef775da019c9065a2848bd37f8ce">Animal::m_cientifico</a></div><div class="ttdeci">string m_cientifico</div><div class="ttdef"><b>Definition:</b> animal.h:35</div></div>
+<div class="ttc" id="classAveNativo_html_a445d94168640bb36dbb34b60906fc42e"><div class="ttname"><a href="classAveNativo.html#a445d94168640bb36dbb34b60906fc42e">AveNativo::printAnimal</a></div><div class="ttdeci">void printAnimal(void)</div><div class="ttdef"><b>Definition:</b> classe_ave_nativo.cpp:41</div></div>
+<div class="ttc" id="classAve_html"><div class="ttname"><a href="classAve.html">Ave</a></div><div class="ttdef"><b>Definition:</b> classe_ave.h:21</div></div>
+<div class="ttc" id="classAnimal_html_a65e3ea644e30d5e193029e4578ead704"><div class="ttname"><a href="classAnimal.html#a65e3ea644e30d5e193029e4578ead704">Animal::m_nome</a></div><div class="ttdeci">string m_nome</div><div class="ttdef"><b>Definition:</b> animal.h:34</div></div>
+<div class="ttc" id="classSilvestre_html_a96b2bfc72b356a3a10f1b5088a397f69"><div class="ttname"><a href="classSilvestre.html#a96b2bfc72b356a3a10f1b5088a397f69">Silvestre::m_ibama</a></div><div class="ttdeci">string m_ibama</div><div class="ttdef"><b>Definition:</b> animal_silvestre.h:27</div></div>
+<div class="ttc" id="classAnimal_html_aaa6d77e661ed0fa9a33500588c8acfef"><div class="ttname"><a href="classAnimal.html#aaa6d77e661ed0fa9a33500588c8acfef">Animal::m_sexo</a></div><div class="ttdeci">char m_sexo</div><div class="ttdef"><b>Definition:</b> animal.h:38</div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Gerado por &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.12
+</small></address>
+</body>
+</html>

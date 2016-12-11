@@ -1,0 +1,8 @@
+<map id="Reptil::~Reptil" name="Reptil::~Reptil">
+<area shape="rect" id="node2" href="$classReptil.html#a87ec22b91f4a97a839e3831f85f3a490" title="Reptil::Reptil" alt="" coords="186,5,285,32"/>
+<area shape="rect" id="node3" href="$classReptil.html#aa978d4cb02113e8665d50b7e7939c24b" title="Reptil::getVenenoso" alt="" coords="165,56,305,83"/>
+<area shape="rect" id="node4" href="$classReptil.html#ad3ef1446db3e6c09699a79c8d3d28b47" title="Reptil::getTipoVeneno" alt="" coords="160,107,311,133"/>
+<area shape="rect" id="node5" href="$classReptil.html#adc53fea17897956ece1d06bd06de6139" title="Reptil::setVenenoso" alt="" coords="165,157,305,184"/>
+<area shape="rect" id="node6" href="$classReptil.html#a4f189ff984c2776fa129880fc240b6e1" title="Reptil::setTipoVeneno" alt="" coords="160,208,311,235"/>
+<area shape="rect" id="node7" href="$classReptil.html#ad0b0257427e80d774a606c16164d042d" title="Reptil::printAnimal" alt="" coords="171,259,300,285"/>
+</map>

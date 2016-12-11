@@ -1,0 +1,982 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.12"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Pet Fera: Referência da Classe Animal</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="logo-ufrn-imd.png"/></td>
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">Pet Fera
+   &#160;<span id="projectnumber">Projeto 3</span>
+   </div>
+   <div id="projectbrief">IMD0030 LP1 BTI UFRN</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Gerado por Doxygen 1.8.12 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Busca');
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+$(function() {
+  initMenu('',true,false,'search.php','Busca');
+  $(document).ready(function() { init_search(); });
+});
+</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Métodos Públicos</a> &#124;
+<a href="#pro-attribs">Atributos Protegidos</a> &#124;
+<a href="#friends">Amigas</a> &#124;
+<a href="classAnimal-members.html">Lista de todos os Membros</a>  </div>
+  <div class="headertitle">
+<div class="title">Referência da Classe Animal<span class="mlabels"><span class="mlabel">abstract</span></span></div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p><code>#include &lt;<a class="el" href="animal_8h_source.html">animal.h</a>&gt;</code></p>
+<div class="dynheader">
+Diagrama de Hierarquia para Animal:</div>
+<div class="dyncontent">
+<div class="center"><img src="classAnimal__inherit__graph.png" border="0" usemap="#Animal_inherit__map" alt="Inheritance graph"/></div>
+<map name="Animal_inherit__map" id="Animal_inherit__map">
+<area shape="rect" id="node2" href="classAnfibio.html" title="Anfibio" alt="" coords="123,56,185,83"/>
+<area shape="rect" id="node5" href="classAve.html" title="Ave" alt="" coords="131,157,177,184"/>
+<area shape="rect" id="node8" href="classMamifero.html" title="Mamifero" alt="" coords="116,208,192,235"/>
+<area shape="rect" id="node11" href="classReptil.html" title="Reptil" alt="" coords="126,309,182,336"/>
+<area shape="rect" id="node3" href="classAnfibioExotico.html" title="AnfibioExotico" alt="" coords="247,5,353,32"/>
+<area shape="rect" id="node4" href="classAnfibioNativo.html" title="AnfibioNativo" alt="" coords="250,56,350,83"/>
+<area shape="rect" id="node6" href="classAveExotico.html" title="AveExotico" alt="" coords="255,107,345,133"/>
+<area shape="rect" id="node7" href="classAveNativo.html" title="AveNativo" alt="" coords="259,157,341,184"/>
+<area shape="rect" id="node9" href="classMamiferoExotico.html" title="MamiferoExotico" alt="" coords="240,208,360,235"/>
+<area shape="rect" id="node10" href="classMamiferoNativo.html" title="MamiferoNativo" alt="" coords="243,259,357,285"/>
+<area shape="rect" id="node12" href="classReptilExotico.html" title="ReptilExotico" alt="" coords="250,309,350,336"/>
+<area shape="rect" id="node13" href="classReptilNativo.html" title="ReptilNativo" alt="" coords="253,360,347,387"/>
+</map>
+<center><span class="legend">[<a href="graph_legend.html">legenda</a>]</span></center></div>
+<div class="dynheader">
+Diagrama de colaboração para Animal:</div>
+<div class="dyncontent">
+<div class="center"><img src="classAnimal__coll__graph.png" border="0" usemap="#Animal_coll__map" alt="Collaboration graph"/></div>
+<map name="Animal_coll__map" id="Animal_coll__map">
+<area shape="rect" id="node2" href="classPessoa.html" title="Pessoa" alt="" coords="5,5,72,32"/>
+</map>
+<center><span class="legend">[<a href="graph_legend.html">legenda</a>]</span></center></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Métodos Públicos</h2></td></tr>
+<tr class="memitem:ab4c05b51a40e75115cecbf03c61fcc67"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAnimal.html#ab4c05b51a40e75115cecbf03c61fcc67">Animal</a> (int id, string classe, string batismo)</td></tr>
+<tr class="separator:ab4c05b51a40e75115cecbf03c61fcc67"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a496e06a1712f98029151f28ba588e914"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAnimal.html#a496e06a1712f98029151f28ba588e914">Animal</a> (int, string, string, string, string, string, char, float, <a class="el" href="classPessoa.html">Pessoa</a> *, <a class="el" href="classPessoa.html">Pessoa</a> *)</td></tr>
+<tr class="separator:a496e06a1712f98029151f28ba588e914"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a16d8b7f94611cc65f5cdb58cc105527b"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAnimal.html#a16d8b7f94611cc65f5cdb58cc105527b">~Animal</a> ()</td></tr>
+<tr class="separator:a16d8b7f94611cc65f5cdb58cc105527b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae068652c94f8997a001d390aae879a48"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAnimal.html#ae068652c94f8997a001d390aae879a48">getID</a> (void)</td></tr>
+<tr class="separator:ae068652c94f8997a001d390aae879a48"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1ad4e387559d1215473f659707be4d1b"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAnimal.html#a1ad4e387559d1215473f659707be4d1b">getClasse</a> (void)</td></tr>
+<tr class="separator:a1ad4e387559d1215473f659707be4d1b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8a957defcc5d0ce99b2d744103e4b389"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAnimal.html#a8a957defcc5d0ce99b2d744103e4b389">getNome</a> (void)</td></tr>
+<tr class="separator:a8a957defcc5d0ce99b2d744103e4b389"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad62ff0ffc166ceb5910735967165527f"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAnimal.html#ad62ff0ffc166ceb5910735967165527f">getCientifico</a> (void)</td></tr>
+<tr class="separator:ad62ff0ffc166ceb5910735967165527f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7a01d6c9d2ac29bb295b52b7feff96e6"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAnimal.html#a7a01d6c9d2ac29bb295b52b7feff96e6">getBatismo</a> (void)</td></tr>
+<tr class="separator:a7a01d6c9d2ac29bb295b52b7feff96e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a559f5839a493531318069861d5b7e226"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAnimal.html#a559f5839a493531318069861d5b7e226">getDieta</a> (void)</td></tr>
+<tr class="separator:a559f5839a493531318069861d5b7e226"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3f0c70a985ab663ab4c312ba688ca44b"><td class="memItemLeft" align="right" valign="top">char&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAnimal.html#a3f0c70a985ab663ab4c312ba688ca44b">getSexo</a> (void)</td></tr>
+<tr class="separator:a3f0c70a985ab663ab4c312ba688ca44b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a060f829fb34a5e7cfca0c1cdf281390d"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAnimal.html#a060f829fb34a5e7cfca0c1cdf281390d">getTamanho</a> (void)</td></tr>
+<tr class="separator:a060f829fb34a5e7cfca0c1cdf281390d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a986705e4b506e935f5592efe76dbeb17"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPessoa.html">Pessoa</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAnimal.html#a986705e4b506e935f5592efe76dbeb17">getVeterinario</a> (void)</td></tr>
+<tr class="separator:a986705e4b506e935f5592efe76dbeb17"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9b251156dc57dc177b50a76e26cd4c43"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPessoa.html">Pessoa</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAnimal.html#a9b251156dc57dc177b50a76e26cd4c43">getTratador</a> (void)</td></tr>
+<tr class="separator:a9b251156dc57dc177b50a76e26cd4c43"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a641c4651ccc838be5d693b8116c34a9e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAnimal.html#a641c4651ccc838be5d693b8116c34a9e">setID</a> (int)</td></tr>
+<tr class="separator:a641c4651ccc838be5d693b8116c34a9e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a079f92da39d62c1e40b682be9f3c7f49"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAnimal.html#a079f92da39d62c1e40b682be9f3c7f49">setClasse</a> (string)</td></tr>
+<tr class="separator:a079f92da39d62c1e40b682be9f3c7f49"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a481629539ce092488fe44e61deebd12c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAnimal.html#a481629539ce092488fe44e61deebd12c">setNome</a> (string)</td></tr>
+<tr class="separator:a481629539ce092488fe44e61deebd12c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af4e99ac9cdcc9389cf51d1493926dbf6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAnimal.html#af4e99ac9cdcc9389cf51d1493926dbf6">setCientifico</a> (string)</td></tr>
+<tr class="separator:af4e99ac9cdcc9389cf51d1493926dbf6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a32016f15fbbb73b8bb091b5ee0b407dd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAnimal.html#a32016f15fbbb73b8bb091b5ee0b407dd">setBatismo</a> (string)</td></tr>
+<tr class="separator:a32016f15fbbb73b8bb091b5ee0b407dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a730ff831d14f2fffe0cdab0e1cd1b65f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAnimal.html#a730ff831d14f2fffe0cdab0e1cd1b65f">setDieta</a> (string)</td></tr>
+<tr class="separator:a730ff831d14f2fffe0cdab0e1cd1b65f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6c97dedc46c536dcb78f12791fae5835"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAnimal.html#a6c97dedc46c536dcb78f12791fae5835">setSexo</a> (char)</td></tr>
+<tr class="separator:a6c97dedc46c536dcb78f12791fae5835"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a875ca7849b4f4897f7ae33eb8a4fa82c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAnimal.html#a875ca7849b4f4897f7ae33eb8a4fa82c">setTamanho</a> (float)</td></tr>
+<tr class="separator:a875ca7849b4f4897f7ae33eb8a4fa82c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aec5a49ec317b62b30072e2e8e02f063e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAnimal.html#aec5a49ec317b62b30072e2e8e02f063e">setVeterinario</a> (<a class="el" href="classPessoa.html">Pessoa</a> *)</td></tr>
+<tr class="separator:aec5a49ec317b62b30072e2e8e02f063e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6edf259ad15427258283b8249d97f5af"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAnimal.html#a6edf259ad15427258283b8249d97f5af">setTratador</a> (<a class="el" href="classPessoa.html">Pessoa</a> *)</td></tr>
+<tr class="separator:a6edf259ad15427258283b8249d97f5af"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aefc9f11ab7c2298b947f920f0429667e"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAnimal.html#aefc9f11ab7c2298b947f920f0429667e">printAnimal</a> (void)=0</td></tr>
+<tr class="separator:aefc9f11ab7c2298b947f920f0429667e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
+Atributos Protegidos</h2></td></tr>
+<tr class="memitem:a1a39448480e098fc74b5b67c4921a5ec"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAnimal.html#a1a39448480e098fc74b5b67c4921a5ec">m_id</a></td></tr>
+<tr class="separator:a1a39448480e098fc74b5b67c4921a5ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a46c2a87591d201f67a6ddd0db794cc44"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAnimal.html#a46c2a87591d201f67a6ddd0db794cc44">m_classe</a></td></tr>
+<tr class="separator:a46c2a87591d201f67a6ddd0db794cc44"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a65e3ea644e30d5e193029e4578ead704"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAnimal.html#a65e3ea644e30d5e193029e4578ead704">m_nome</a></td></tr>
+<tr class="separator:a65e3ea644e30d5e193029e4578ead704"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae9e8ef775da019c9065a2848bd37f8ce"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAnimal.html#ae9e8ef775da019c9065a2848bd37f8ce">m_cientifico</a></td></tr>
+<tr class="separator:ae9e8ef775da019c9065a2848bd37f8ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4586ed911ed0a966f0e4620297c09bb1"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAnimal.html#a4586ed911ed0a966f0e4620297c09bb1">m_batismo</a></td></tr>
+<tr class="separator:a4586ed911ed0a966f0e4620297c09bb1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6bcc4913ef54988ddc4e938c6033ff35"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAnimal.html#a6bcc4913ef54988ddc4e938c6033ff35">m_dieta</a></td></tr>
+<tr class="separator:a6bcc4913ef54988ddc4e938c6033ff35"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaa6d77e661ed0fa9a33500588c8acfef"><td class="memItemLeft" align="right" valign="top">char&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAnimal.html#aaa6d77e661ed0fa9a33500588c8acfef">m_sexo</a></td></tr>
+<tr class="separator:aaa6d77e661ed0fa9a33500588c8acfef"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a71fd9457daf254c18e2971430681f33f"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAnimal.html#a71fd9457daf254c18e2971430681f33f">m_tamanho</a></td></tr>
+<tr class="separator:a71fd9457daf254c18e2971430681f33f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:accb67855e402ad7fcc956cc23383f66c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPessoa.html">Pessoa</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAnimal.html#accb67855e402ad7fcc956cc23383f66c">m_veterinario</a></td></tr>
+<tr class="separator:accb67855e402ad7fcc956cc23383f66c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aabfbae2ac4e7e31786183162beb3d5f2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPessoa.html">Pessoa</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAnimal.html#aabfbae2ac4e7e31786183162beb3d5f2">m_tratador</a></td></tr>
+<tr class="separator:aabfbae2ac4e7e31786183162beb3d5f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="friends"></a>
+Amigas</h2></td></tr>
+<tr class="memitem:ab3f5958428be808f19efe02f34cec556"><td class="memItemLeft" align="right" valign="top">std::ostream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAnimal.html#ab3f5958428be808f19efe02f34cec556">operator&lt;&lt;</a> (std::ostream &amp;os, const <a class="el" href="classAnimal.html">Animal</a> &amp;b)</td></tr>
+<tr class="separator:ab3f5958428be808f19efe02f34cec556"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Descrição Detalhada</h2>
+<div class="textblock"><p>classe abstrata <a class="el" href="classAnimal.html">Animal</a> </p>
+</div><h2 class="groupheader">Construtores &amp; Destrutores</h2>
+<a id="ab4c05b51a40e75115cecbf03c61fcc67"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab4c05b51a40e75115cecbf03c61fcc67">&sect;&nbsp;</a></span>Animal() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Animal::Animal </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>id</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>classe</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>batismo</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>construtor da classe abstrata <a class="el" href="classAnimal.html">Animal</a> </p>
+
+</div>
+</div>
+<a id="a496e06a1712f98029151f28ba588e914"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a496e06a1712f98029151f28ba588e914">&sect;&nbsp;</a></span>Animal() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Animal::Animal </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>id</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>classe</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>nome</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>cientifico</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>batismo</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>dieta</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">char&#160;</td>
+          <td class="paramname"><em>sexo</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>tamanho</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classPessoa.html">Pessoa</a> *&#160;</td>
+          <td class="paramname"><em>veterinario</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classPessoa.html">Pessoa</a> *&#160;</td>
+          <td class="paramname"><em>tratador</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>construtor da classe abstrata <a class="el" href="classAnimal.html">Animal</a> </p>
+
+</div>
+</div>
+<a id="a16d8b7f94611cc65f5cdb58cc105527b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a16d8b7f94611cc65f5cdb58cc105527b">&sect;&nbsp;</a></span>~Animal()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual Animal::~Animal </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>destrutor da classe abstrata <a class="el" href="classAnimal.html">Animal</a> </p>
+
+</div>
+</div>
+<h2 class="groupheader">Métodos</h2>
+<a id="a7a01d6c9d2ac29bb295b52b7feff96e6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7a01d6c9d2ac29bb295b52b7feff96e6">&sect;&nbsp;</a></span>getBatismo()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">string Animal::getBatismo </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad62ff0ffc166ceb5910735967165527f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad62ff0ffc166ceb5910735967165527f">&sect;&nbsp;</a></span>getCientifico()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">string Animal::getCientifico </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a1ad4e387559d1215473f659707be4d1b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1ad4e387559d1215473f659707be4d1b">&sect;&nbsp;</a></span>getClasse()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">string Animal::getClasse </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a559f5839a493531318069861d5b7e226"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a559f5839a493531318069861d5b7e226">&sect;&nbsp;</a></span>getDieta()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">string Animal::getDieta </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae068652c94f8997a001d390aae879a48"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae068652c94f8997a001d390aae879a48">&sect;&nbsp;</a></span>getID()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Animal::getID </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a8a957defcc5d0ce99b2d744103e4b389"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8a957defcc5d0ce99b2d744103e4b389">&sect;&nbsp;</a></span>getNome()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">string Animal::getNome </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a3f0c70a985ab663ab4c312ba688ca44b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3f0c70a985ab663ab4c312ba688ca44b">&sect;&nbsp;</a></span>getSexo()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">char Animal::getSexo </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a060f829fb34a5e7cfca0c1cdf281390d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a060f829fb34a5e7cfca0c1cdf281390d">&sect;&nbsp;</a></span>getTamanho()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float Animal::getTamanho </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a9b251156dc57dc177b50a76e26cd4c43"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9b251156dc57dc177b50a76e26cd4c43">&sect;&nbsp;</a></span>getTratador()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classPessoa.html">Pessoa</a> * Animal::getTratador </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a986705e4b506e935f5592efe76dbeb17"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a986705e4b506e935f5592efe76dbeb17">&sect;&nbsp;</a></span>getVeterinario()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classPessoa.html">Pessoa</a> * Animal::getVeterinario </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aefc9f11ab7c2298b947f920f0429667e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aefc9f11ab7c2298b947f920f0429667e">&sect;&nbsp;</a></span>printAnimal()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void Animal::printAnimal </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Implementado por <a class="el" href="classAnfibioNativo.html#ab2c22c30ff231231ea250f80cf8f93b6">AnfibioNativo</a>, <a class="el" href="classAveNativo.html#a445d94168640bb36dbb34b60906fc42e">AveNativo</a>, <a class="el" href="classReptilNativo.html#a15c843e63965a83682279edf87991c4c">ReptilNativo</a>, <a class="el" href="classAnfibioExotico.html#a39151ad5c56155bae0e47e47b1b78b64">AnfibioExotico</a>, <a class="el" href="classAveExotico.html#a0cf456a7b8edfbc8cb9f633ce4497706">AveExotico</a>, <a class="el" href="classMamiferoNativo.html#a0a745877ec9fbeddd9e8563f684ba607">MamiferoNativo</a>, <a class="el" href="classReptilExotico.html#af1fe71c7c2f915eb945b4304f5c93371">ReptilExotico</a>, <a class="el" href="classMamiferoExotico.html#a6c81c42a149895cacf551a9aa9213bc6">MamiferoExotico</a>, <a class="el" href="classReptil.html#ad0b0257427e80d774a606c16164d042d">Reptil</a>, <a class="el" href="classAnfibio.html#af5513e831629a149a036aab9621edd83">Anfibio</a>, <a class="el" href="classAve.html#a393d6ef5fe729e395b4a7aaff4f9ae20">Ave</a> e <a class="el" href="classMamifero.html#ad69677ed70d739d61f012b8e38184637">Mamifero</a>.</p>
+
+</div>
+</div>
+<a id="a32016f15fbbb73b8bb091b5ee0b407dd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a32016f15fbbb73b8bb091b5ee0b407dd">&sect;&nbsp;</a></span>setBatismo()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Animal::setBatismo </td>
+          <td>(</td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>batismo</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af4e99ac9cdcc9389cf51d1493926dbf6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af4e99ac9cdcc9389cf51d1493926dbf6">&sect;&nbsp;</a></span>setCientifico()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Animal::setCientifico </td>
+          <td>(</td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>cientifico</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a079f92da39d62c1e40b682be9f3c7f49"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a079f92da39d62c1e40b682be9f3c7f49">&sect;&nbsp;</a></span>setClasse()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Animal::setClasse </td>
+          <td>(</td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>classe</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a730ff831d14f2fffe0cdab0e1cd1b65f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a730ff831d14f2fffe0cdab0e1cd1b65f">&sect;&nbsp;</a></span>setDieta()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Animal::setDieta </td>
+          <td>(</td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>dieta</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a641c4651ccc838be5d693b8116c34a9e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a641c4651ccc838be5d693b8116c34a9e">&sect;&nbsp;</a></span>setID()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Animal::setID </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>id</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a481629539ce092488fe44e61deebd12c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a481629539ce092488fe44e61deebd12c">&sect;&nbsp;</a></span>setNome()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Animal::setNome </td>
+          <td>(</td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>nome</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a6c97dedc46c536dcb78f12791fae5835"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6c97dedc46c536dcb78f12791fae5835">&sect;&nbsp;</a></span>setSexo()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Animal::setSexo </td>
+          <td>(</td>
+          <td class="paramtype">char&#160;</td>
+          <td class="paramname"><em>sexo</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a875ca7849b4f4897f7ae33eb8a4fa82c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a875ca7849b4f4897f7ae33eb8a4fa82c">&sect;&nbsp;</a></span>setTamanho()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Animal::setTamanho </td>
+          <td>(</td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>tamanho</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a6edf259ad15427258283b8249d97f5af"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6edf259ad15427258283b8249d97f5af">&sect;&nbsp;</a></span>setTratador()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Animal::setTratador </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classPessoa.html">Pessoa</a> *&#160;</td>
+          <td class="paramname"><em>tratador</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aec5a49ec317b62b30072e2e8e02f063e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aec5a49ec317b62b30072e2e8e02f063e">&sect;&nbsp;</a></span>setVeterinario()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Animal::setVeterinario </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classPessoa.html">Pessoa</a> *&#160;</td>
+          <td class="paramname"><em>veterinario</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Amigas e Funções Relacionadas</h2>
+<a id="ab3f5958428be808f19efe02f34cec556"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab3f5958428be808f19efe02f34cec556">&sect;&nbsp;</a></span>operator<<</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::ostream&amp; operator&lt;&lt; </td>
+          <td>(</td>
+          <td class="paramtype">std::ostream &amp;&#160;</td>
+          <td class="paramname"><em>os</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classAnimal.html">Animal</a> &amp;&#160;</td>
+          <td class="paramname"><em>b</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">friend</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Atributos</h2>
+<a id="a4586ed911ed0a966f0e4620297c09bb1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4586ed911ed0a966f0e4620297c09bb1">&sect;&nbsp;</a></span>m_batismo</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">string Animal::m_batismo</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae9e8ef775da019c9065a2848bd37f8ce"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae9e8ef775da019c9065a2848bd37f8ce">&sect;&nbsp;</a></span>m_cientifico</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">string Animal::m_cientifico</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a46c2a87591d201f67a6ddd0db794cc44"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a46c2a87591d201f67a6ddd0db794cc44">&sect;&nbsp;</a></span>m_classe</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">string Animal::m_classe</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a6bcc4913ef54988ddc4e938c6033ff35"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6bcc4913ef54988ddc4e938c6033ff35">&sect;&nbsp;</a></span>m_dieta</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">string Animal::m_dieta</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a1a39448480e098fc74b5b67c4921a5ec"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1a39448480e098fc74b5b67c4921a5ec">&sect;&nbsp;</a></span>m_id</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Animal::m_id</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a65e3ea644e30d5e193029e4578ead704"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a65e3ea644e30d5e193029e4578ead704">&sect;&nbsp;</a></span>m_nome</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">string Animal::m_nome</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aaa6d77e661ed0fa9a33500588c8acfef"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaa6d77e661ed0fa9a33500588c8acfef">&sect;&nbsp;</a></span>m_sexo</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">char Animal::m_sexo</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a71fd9457daf254c18e2971430681f33f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a71fd9457daf254c18e2971430681f33f">&sect;&nbsp;</a></span>m_tamanho</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float Animal::m_tamanho</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aabfbae2ac4e7e31786183162beb3d5f2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aabfbae2ac4e7e31786183162beb3d5f2">&sect;&nbsp;</a></span>m_tratador</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classPessoa.html">Pessoa</a>* Animal::m_tratador</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="accb67855e402ad7fcc956cc23383f66c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#accb67855e402ad7fcc956cc23383f66c">&sect;&nbsp;</a></span>m_veterinario</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classPessoa.html">Pessoa</a>* Animal::m_veterinario</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<hr/>A documentação para esta classe foi gerada a partir dos seguintes arquivos:<ul>
+<li>include/petfera/<a class="el" href="animal_8h_source.html">animal.h</a></li>
+<li>src/petfera/<a class="el" href="animal_8cpp.html">animal.cpp</a></li>
+</ul>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Gerado por &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.12
+</small></address>
+</body>
+</html>

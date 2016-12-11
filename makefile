@@ -21,7 +21,7 @@ CFLAGS  = -Wall -pedantic -std=c++11 -g -O0 -I. -I$(INC_DIR)/$(PROG_DIR)
 PROG 		= petfera.exe
 PROG_DIR	= petfera
 PROG_ARG	= ""
-PROG_OBJ	= $(OBJ_DIR)/$(PROG_DIR)/main.o $(LIB_DIR)/$(PROG_DIR)/auxiliar.so
+PROG_OBJ	=  $(OBJ_DIR)/$(PROG_DIR)/main.o $(LIB_DIR)/$(PROG_DIR)/auxiliar.so
 
 # biblioteca dinamica
 LIB_OBJ		= $(OBJ_DIR)/$(PROG_DIR)/pessoa.o $(OBJ_DIR)/$(PROG_DIR)/pessoa_funcionario.o $(OBJ_DIR)/$(PROG_DIR)/pessoa_tratador.o $(OBJ_DIR)/$(PROG_DIR)/pessoa_veterinario.o $(OBJ_DIR)/$(PROG_DIR)/animal_silvestre.o $(OBJ_DIR)/$(PROG_DIR)/animal_exotico.o $(OBJ_DIR)/$(PROG_DIR)/animal_nativo.o $(OBJ_DIR)/$(PROG_DIR)/animal.o $(OBJ_DIR)/$(PROG_DIR)/classe_ave.o $(OBJ_DIR)/$(PROG_DIR)/classe_ave_exotico.o $(OBJ_DIR)/$(PROG_DIR)/classe_ave_nativo.o $(OBJ_DIR)/$(PROG_DIR)/classe_anfibio.o $(OBJ_DIR)/$(PROG_DIR)/classe_anfibio_exotico.o $(OBJ_DIR)/$(PROG_DIR)/classe_anfibio_nativo.o $(OBJ_DIR)/$(PROG_DIR)/classe_mamifero.o $(OBJ_DIR)/$(PROG_DIR)/classe_mamifero_exotico.o $(OBJ_DIR)/$(PROG_DIR)/classe_mamifero_nativo.o $(OBJ_DIR)/$(PROG_DIR)/classe_reptil.o $(OBJ_DIR)/$(PROG_DIR)/classe_reptil_exotico.o $(OBJ_DIR)/$(PROG_DIR)/classe_reptil_nativo.o
@@ -30,27 +30,9 @@ LIB_OBJ		= $(OBJ_DIR)/$(PROG_DIR)/pessoa.o $(OBJ_DIR)/$(PROG_DIR)/pessoa_funcion
 # Define o alvo (target) para a compilação completa.
 # Define os alvos "executaveis" como dependências.
 # Ao final da compilação, remove os arquivos objeto.
-all: $(PROG) 
+linux: $(LIB_DIR)/$(PROG_DIR)/auxiliar.so $(PROG) 
 	rm $(OBJ_DIR)/$(PROG_DIR)/*.o
 
-
-# Alvo (target) para a construcao do executavel
-# Define os arquivos objeto como dependências.
-$(PROG): $(PROG_OBJ) 
-	$(CC) -L$(LIB_DIR)/$(PROG_DIR) $^ -o $(OBJ_DIR)/$(PROG_DIR)/$@
-	@echo "+++ [Executavel $(PROG) criado em $(OBJ_DIR)/$(PROG_DIR)/] +++"
-
-
-# Alvo (target) para a construcao do objeto main.o
-# Define o arquivo main.cpp e auxiliar.h como dependências.
-$(OBJ_DIR)/$(PROG_DIR)/main.o: $(SRC_DIR)/$(PROG_DIR)/main.cpp $(INC_DIR)/$(PROG_DIR)/auxiliar.h
-	$(CC) -c $(CFLAGS) -o $@ $<
-
-# auxiliar (biblioteca dinamica)
-$(LIB_DIR)/$(PROG_DIR)/auxiliar.so: $(SRC_DIR)/$(PROG_DIR)/auxiliar.cpp $(INC_DIR)/$(PROG_DIR)/auxiliar.h $(LIB_OBJ)
-	$(CC) $(CFLAGS) -fPIC -c $(SRC_DIR)/$(PROG_DIR)/auxiliar.cpp -o $(OBJ_DIR)/$(PROG_DIR)/auxiliar.o
-	$(CC) -shared 	-fPIC -o $@ $(OBJ_DIR)/$(PROG_DIR)/auxiliar.o
-	@echo "+++ [Biblioteca dinamica criada em $(LIB_DIR)/$@] +++"
 
 # pessoa
 $(OBJ_DIR)/$(PROG_DIR)/pessoa.o: $(SRC_DIR)/$(PROG_DIR)/pessoa.cpp $(INC_DIR)/$(PROG_DIR)/pessoa.h
@@ -139,13 +121,26 @@ $(OBJ_DIR)/$(PROG_DIR)/classe_reptil_nativo.o: $(SRC_DIR)/$(PROG_DIR)/classe_rep
 	$(CC) -fPIC -c $(CFLAGS) -o $@ $<
 
 
+# auxiliar (biblioteca dinamica)
+$(LIB_DIR)/$(PROG_DIR)/auxiliar.so: $(LIB_OBJ) $(SRC_DIR)/$(PROG_DIR)/auxiliar.cpp $(INC_DIR)/$(PROG_DIR)/auxiliar.h 
+	$(CC) $(CFLAGS) -fPIC -c $(SRC_DIR)/$(PROG_DIR)/auxiliar.cpp -o $(OBJ_DIR)/$(PROG_DIR)/auxiliar.o
+	$(CC) -shared 	-fPIC -o $@ $(LIB_OBJ) $(OBJ_DIR)/$(PROG_DIR)/auxiliar.o 
+	@echo "+++ [Biblioteca dinamica $@ criada com sucesso em $(LIB_DIR)/$(PROG_DIR)/] +++"
+
+
+# Alvo (target) para a construcao do executavel
+# Define os arquivos objeto como dependências.
+$(PROG):
+	$(CC) $(CFLAGS) $(SRC_DIR)/$(PROG_DIR)/main.cpp -L$(LIB_DIR)/$(PROG_DIR) $(LIB_DIR)/$(PROG_DIR)/auxiliar.so -o $(OBJ_DIR)/$(PROG_DIR)/$@
+	@echo "+++ [Executavel $(PROG) criado com sucesso em $(OBJ_DIR)/$(PROG_DIR)/] +++"
+
 
 # remove arquivos e recompila tudo
 rebuild: clean $(PROG) 
 
 # remove arquivos executaveis e objetos compilados
 clean:
-	rm -f $(OBJ_DIR)/*/*.exe $(OBJ_DIR)/*/*.o
+	rm -f $(OBJ_DIR)/*/*.exe $(OBJ_DIR)/*/*.o $(LIB_DIR)/*/*.so
 
 # remove arquivos executaveis
 clean-executables:

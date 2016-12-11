@@ -333,10 +333,11 @@ namespace auxiliar {
 				} else
 				if( user_option == 4 ){
 					string c = it->second->getClasse();
-					transform(c.begin(), c.end(), c.begin(), ::tolower);
-					transform(classe.begin(), classe.end(), classe.begin(), ::tolower);
+					transform(c.begin(), c.end(), c.begin(), ::tolower); // converte classe (iterator) para minusculo
+					transform(classe.begin(), classe.end(), classe.begin(), ::tolower); // converte classe (digitada) para minusculo
 
-					if(c.find(classe) != std::string::npos)
+					// if(c == classe)
+					if(c.find(classe) != std::string::npos) // testa se há ocorrencia da string digitada
 						it->second->printAnimal();
 				}
 			}

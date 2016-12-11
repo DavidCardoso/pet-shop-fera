@@ -10,7 +10,7 @@ Pet Fera
 Objetivo
 --
 
-- O objetivo deste trabalho é implementar um programa de cadastro de animais para a loja de animais silvestres **Pet Fera**.
+- O objetivo deste trabalho é customizar o programa de cadastro de animais para a loja de animais silvestres **Pet Fera**.
 
 Um pouco sobre o funcionamento da Pet Fera
 --
@@ -35,4 +35,4 @@ Opções do programa (Menu)
 Informações adicionais
 --
 
-- Link do relatório: http://
+- Link do relatório: https://goo.gl/7DPME2

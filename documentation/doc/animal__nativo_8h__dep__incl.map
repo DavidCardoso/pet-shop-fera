@@ -1,14 +1,15 @@
 <map id="include/petfera/animal_nativo.h" name="include/petfera/animal_nativo.h">
 <area shape="rect" id="node2" href="$classe__anfibio__nativo_8h.html" title="Classe AnfibioNativo. " alt="" coords="587,95,737,136"/>
-<area shape="rect" id="node7" href="$classe__ave__nativo_8h.html" title="Classe AveNativo. " alt="" coords="67,95,217,136"/>
-<area shape="rect" id="node9" href="$classe__mamifero__nativo_8h.html" title="Classe MamiferoNativo. " alt="" coords="241,95,390,136"/>
-<area shape="rect" id="node11" href="$classe__reptil__nativo_8h.html" title="Classe ReptilNativo. " alt="" coords="414,95,563,136"/>
-<area shape="rect" id="node13" href="$animal__nativo_8cpp.html" title="Classe abstrata Nativo. " alt="" coords="761,95,888,136"/>
+<area shape="rect" id="node8" href="$classe__ave__nativo_8h.html" title="Classe AveNativo. " alt="" coords="67,95,217,136"/>
+<area shape="rect" id="node10" href="$classe__mamifero__nativo_8h.html" title="Classe MamiferoNativo. " alt="" coords="241,95,390,136"/>
+<area shape="rect" id="node12" href="$classe__reptil__nativo_8h.html" title="Classe ReptilNativo. " alt="" coords="414,95,563,136"/>
+<area shape="rect" id="node14" href="$animal__nativo_8cpp.html" title="Classe abstrata Nativo. " alt="" coords="761,95,888,136"/>
 <area shape="rect" id="node3" href="$auxiliar_8h.html" title="Funções auxiliares. " alt="" coords="331,191,494,218"/>
-<area shape="rect" id="node6" href="$classe__anfibio__nativo_8cpp.html" title="Classe AnfibioNativo. " alt="" coords="669,184,804,225"/>
-<area shape="rect" id="node4" href="$auxiliar_8cpp.html" title="Funções auxiliares. " alt="" coords="250,273,405,300"/>
-<area shape="rect" id="node5" href="$main_8cpp.html" title="Programa Pet Fera. " alt="" coords="429,273,570,300"/>
-<area shape="rect" id="node8" href="$classe__ave__nativo_8cpp.html" title="Classe AveNativo. " alt="" coords="5,184,132,225"/>
-<area shape="rect" id="node10" href="$classe__mamifero__nativo_8cpp.html" title="Classe MamiferoNativo. " alt="" coords="156,184,307,225"/>
-<area shape="rect" id="node12" href="$classe__reptil__nativo_8cpp.html" title="Classe ReptilNativo. " alt="" coords="519,184,645,225"/>
+<area shape="rect" id="node7" href="$classe__anfibio__nativo_8cpp.html" title="Classe AnfibioNativo. " alt="" coords="669,184,804,225"/>
+<area shape="rect" id="node4" href="$auxiliar_8cpp.html" title="Funções auxiliares. " alt="" coords="154,273,309,300"/>
+<area shape="rect" id="node5" href="$exportar_8cpp.html" title="Programa Exportar Pet Fera. " alt="" coords="333,273,493,300"/>
+<area shape="rect" id="node6" href="$main_8cpp.html" title="Programa Pet Fera. " alt="" coords="517,273,658,300"/>
+<area shape="rect" id="node9" href="$classe__ave__nativo_8cpp.html" title="Classe AveNativo. " alt="" coords="5,184,132,225"/>
+<area shape="rect" id="node11" href="$classe__mamifero__nativo_8cpp.html" title="Classe MamiferoNativo. " alt="" coords="156,184,307,225"/>
+<area shape="rect" id="node13" href="$classe__reptil__nativo_8cpp.html" title="Classe ReptilNativo. " alt="" coords="519,184,645,225"/>
 </map>

@@ -5,11 +5,11 @@
 # @copyright (c) 2016 - All rights reserveds
 #
 # $@ nome do alvo (target)
-# $^ nome de todos os pré-requisitos sem duplicatas
-# $< nome do primeiro pré-requisito
+# $^ nome de todos os prÃ©-requisitos sem duplicatas
+# $< nome do primeiro prÃ©-requisito
 #
 
-# variáveis genéricas
+# variÃ¡veis genÃ©ricas
 INC_DIR = include
 SRC_DIR = src
 OBJ_DIR = build
@@ -17,20 +17,30 @@ LIB_DIR = lib
 CC      = g++
 CFLAGS  = -Wall -pedantic -std=c++11 -g -O0 -I. -I$(INC_DIR)/$(PROG_DIR)
 
-# variáveis do programa 1
+# variÃ¡veis do programa 1
 PROG 		= petfera.exe
 PROG_DIR	= petfera
 PROG_ARG	= ""
 PROG_OBJ	=  $(OBJ_DIR)/$(PROG_DIR)/main.o $(LIB_DIR)/$(PROG_DIR)/auxiliar.so
 
+# variÃ¡veis do programa 2
+PROG2 		= exportar.exe
+PROG2_DIR	= petfera
+PROG2_ARG	= ""
+PROG2_OBJ	=  $(OBJ_DIR)/$(PROG2_DIR)/exportar.o $(LIB_DIR)/$(PROG2_DIR)/auxiliar.so
+
 # biblioteca dinamica
 LIB_OBJ		= $(OBJ_DIR)/$(PROG_DIR)/pessoa.o $(OBJ_DIR)/$(PROG_DIR)/pessoa_funcionario.o $(OBJ_DIR)/$(PROG_DIR)/pessoa_tratador.o $(OBJ_DIR)/$(PROG_DIR)/pessoa_veterinario.o $(OBJ_DIR)/$(PROG_DIR)/animal_silvestre.o $(OBJ_DIR)/$(PROG_DIR)/animal_exotico.o $(OBJ_DIR)/$(PROG_DIR)/animal_nativo.o $(OBJ_DIR)/$(PROG_DIR)/animal.o $(OBJ_DIR)/$(PROG_DIR)/classe_ave.o $(OBJ_DIR)/$(PROG_DIR)/classe_ave_exotico.o $(OBJ_DIR)/$(PROG_DIR)/classe_ave_nativo.o $(OBJ_DIR)/$(PROG_DIR)/classe_anfibio.o $(OBJ_DIR)/$(PROG_DIR)/classe_anfibio_exotico.o $(OBJ_DIR)/$(PROG_DIR)/classe_anfibio_nativo.o $(OBJ_DIR)/$(PROG_DIR)/classe_mamifero.o $(OBJ_DIR)/$(PROG_DIR)/classe_mamifero_exotico.o $(OBJ_DIR)/$(PROG_DIR)/classe_mamifero_nativo.o $(OBJ_DIR)/$(PROG_DIR)/classe_reptil.o $(OBJ_DIR)/$(PROG_DIR)/classe_reptil_exotico.o $(OBJ_DIR)/$(PROG_DIR)/classe_reptil_nativo.o
 
+all:
+	@echo "Escolha um target valido!"
+	@echo "Opcoes: linux"
+	@echo "Ex.: make linux"
 
-# Define o alvo (target) para a compilação completa.
-# Define os alvos "executaveis" como dependências.
-# Ao final da compilação, remove os arquivos objeto.
-linux: $(LIB_DIR)/$(PROG_DIR)/auxiliar.so $(PROG) 
+# Define o alvo (target) para a compilaÃ§Ã£o completa.
+# Define os alvos "executaveis" como dependÃªncias.
+# Ao final da compilaÃ§Ã£o, remove os arquivos objeto.
+linux: $(LIB_DIR)/$(PROG_DIR)/auxiliar.so $(PROG) $(PROG2) 
 	rm $(OBJ_DIR)/$(PROG_DIR)/*.o
 
 
@@ -128,15 +138,15 @@ $(LIB_DIR)/$(PROG_DIR)/auxiliar.so: $(LIB_OBJ) $(SRC_DIR)/$(PROG_DIR)/auxiliar.c
 	@echo "+++ [Biblioteca dinamica $@ criada com sucesso em $(LIB_DIR)/$(PROG_DIR)/] +++"
 
 
-# Alvo (target) para a construcao do executavel
-# Define os arquivos objeto como dependências.
+# executavel 1
 $(PROG):
 	$(CC) $(CFLAGS) $(SRC_DIR)/$(PROG_DIR)/main.cpp -L$(LIB_DIR)/$(PROG_DIR) $(LIB_DIR)/$(PROG_DIR)/auxiliar.so -o $(OBJ_DIR)/$(PROG_DIR)/$@
 	@echo "+++ [Executavel $(PROG) criado com sucesso em $(OBJ_DIR)/$(PROG_DIR)/] +++"
 
-
-# remove arquivos e recompila tudo
-rebuild: clean $(PROG) 
+# executavel 2
+$(PROG2):
+	$(CC) $(CFLAGS) $(SRC_DIR)/$(PROG2_DIR)/exportar.cpp -L$(LIB_DIR)/$(PROG2_DIR) $(LIB_DIR)/$(PROG2_DIR)/auxiliar.so -o $(OBJ_DIR)/$(PROG2_DIR)/$@
+	@echo "+++ [Executavel $(PROG2) criado com sucesso em $(OBJ_DIR)/$(PROG2_DIR)/] +++"
 
 # remove arquivos executaveis e objetos compilados
 clean:
@@ -162,10 +172,10 @@ downstack:
 rmcsv:
 	rm -f data/$(PROG_DIR)/*.csv
 
-# gera documentação com o Doxygen
+# gera documentaÃ§Ã£o com o Doxygen
 docs:
 	doxygen
 
-# remove documentação doxygen
+# remove documentaÃ§Ã£o doxygen
 rmdocs:
 	rm -rf documentation/doc

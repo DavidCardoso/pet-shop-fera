@@ -232,6 +232,33 @@ namespace auxiliar {
 	}
 
 	/**
+	 * salvar dados pesquisados em um arquivo
+	 * @param 	dicionario_pessoas - dicionario de ponteiro para objeto Pessoa
+	 * @param 	dicionario_animais - dicionario de ponteiro para objeto Animal
+	 * @param 	path_pessoas - caminho do arquivo pessoa
+	 * @param 	path_animais - caminho do arquivo animal
+	 * @return 	boolean
+	 */
+	bool export2File(map<int, Pessoa*> dicionario_pessoas, map<int, Animal*> dicionario_animais, string path_pessoas, string path_animais){
+
+		// ANIMAL
+		ofstream save_animal;
+		save_animal.open(path_animais, ios::out | ios::trunc);
+
+		if ( save_animal ){
+			for (map<int, Animal*>::iterator it = dicionario_animais.begin(); it != dicionario_animais.end(); ++it){
+				save_animal << *it->second;
+			}
+			save_animal.close();
+		}else{
+			cerr << "Não foi possível abrir o arquivo " << path_animais << endl;
+			return false;
+		}
+
+		return true;
+	}
+
+	/**
 	 * pesquisar uma pessoa pelo ID
 	 * @param dicionario_pessoas
 	 * @return iterador para dicionario de pessoas

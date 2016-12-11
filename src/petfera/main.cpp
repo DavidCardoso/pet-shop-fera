@@ -18,6 +18,7 @@
 #include "../../include/petfera/auxiliar.h" // funções auxiliares
 
 using namespace std;
+using namespace auxiliar;
 
 /**
  * @brief 	Função principal do programa Pet Fera

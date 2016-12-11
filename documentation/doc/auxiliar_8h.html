@@ -66,6 +66,7 @@ $(function() {
 </div><!-- top -->
 <div class="header">
   <div class="summary">
+<a href="#namespaces">Namespaces</a> &#124;
 <a href="#func-members">Funções</a>  </div>
   <div class="headertitle">
 <div class="title">Referência do Arquivo auxiliar.h</div>  </div>
@@ -129,500 +130,46 @@ Este grafo mostra quais arquivos estão direta ou indiretamente relacionados com
 </div>
 <p><a href="auxiliar_8h_source.html">Vá para o código-fonte deste arquivo.</a></p>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
+Namespaces</h2></td></tr>
+<tr class="memitem:namespaceauxiliar"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceauxiliar.html">auxiliar</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Funções</h2></td></tr>
-<tr class="memitem:a6c13aae1128002271e3e0394e32a244f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="auxiliar_8h.html#a6c13aae1128002271e3e0394e32a244f">clearEntrada</a> (void)</td></tr>
-<tr class="separator:a6c13aae1128002271e3e0394e32a244f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a28a8b1cc1abbbf836c45451d428aaa48"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="auxiliar_8h.html#a28a8b1cc1abbbf836c45451d428aaa48">fillPessoas</a> (map&lt; int, <a class="el" href="classPessoa.html">Pessoa</a> *&gt; &amp;pessoas, string path_pessoas, int &amp;pessoas_last_id)</td></tr>
-<tr class="separator:a28a8b1cc1abbbf836c45451d428aaa48"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:addb9fa688154fa6aa3b346a2c3d9fb9f"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="auxiliar_8h.html#addb9fa688154fa6aa3b346a2c3d9fb9f">fillAnimais</a> (map&lt; int, <a class="el" href="classPessoa.html">Pessoa</a> *&gt; &amp;pessoas, map&lt; int, <a class="el" href="classAnimal.html">Animal</a> *&gt; &amp;animais, string path_animais, int &amp;animais_last_id)</td></tr>
-<tr class="separator:addb9fa688154fa6aa3b346a2c3d9fb9f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad2b21ce8286f44758269c6f0cc0bb728"><td class="memItemLeft" align="right" valign="top">const vector&lt; string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="auxiliar_8h.html#ad2b21ce8286f44758269c6f0cc0bb728">explode</a> (const string s, const char c)</td></tr>
-<tr class="separator:ad2b21ce8286f44758269c6f0cc0bb728"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acf9c58c7b7bf8b6c35c09430e1662ee5"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="auxiliar_8h.html#acf9c58c7b7bf8b6c35c09430e1662ee5">saveInFiles</a> (map&lt; int, <a class="el" href="classPessoa.html">Pessoa</a> *&gt; dicionario_pessoas, map&lt; int, <a class="el" href="classAnimal.html">Animal</a> *&gt; dicionario_animais, string path_pessoas, string path_animais)</td></tr>
-<tr class="separator:acf9c58c7b7bf8b6c35c09430e1662ee5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af24c83c599e859cae964e495140c3930"><td class="memItemLeft" align="right" valign="top">map&lt; int, <a class="el" href="classPessoa.html">Pessoa</a> * &gt;::iterator&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="auxiliar_8h.html#af24c83c599e859cae964e495140c3930">searchPessoa</a> (map&lt; int, <a class="el" href="classPessoa.html">Pessoa</a> *&gt; &amp;dicionario_pessoas)</td></tr>
-<tr class="separator:af24c83c599e859cae964e495140c3930"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad2e3c64ba91553c2d56e262184eaa2ce"><td class="memItemLeft" align="right" valign="top">map&lt; int, <a class="el" href="classAnimal.html">Animal</a> * &gt;::iterator&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="auxiliar_8h.html#ad2e3c64ba91553c2d56e262184eaa2ce">searchAnimal</a> (map&lt; int, <a class="el" href="classAnimal.html">Animal</a> *&gt; &amp;dicionario_animais, bool all_options=true)</td></tr>
-<tr class="separator:ad2e3c64ba91553c2d56e262184eaa2ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8b066f14f11cda8ef32acaa352a42541"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="auxiliar_8h.html#a8b066f14f11cda8ef32acaa352a42541">newQuickAnimal</a> (map&lt; int, <a class="el" href="classAnimal.html">Animal</a> *&gt; &amp;animais, int &amp;animais_last_id)</td></tr>
-<tr class="separator:a8b066f14f11cda8ef32acaa352a42541"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2c1dbcd6a844b52b7193368988b22af3"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="auxiliar_8h.html#a2c1dbcd6a844b52b7193368988b22af3">newFuncionario</a> (map&lt; int, <a class="el" href="classPessoa.html">Pessoa</a> *&gt; &amp;dicionario_pessoas, int &amp;pessoas_last_id)</td></tr>
-<tr class="separator:a2c1dbcd6a844b52b7193368988b22af3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab1f9d9565853f4a861518cd0f1043542"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="auxiliar_8h.html#ab1f9d9565853f4a861518cd0f1043542">delPessoa</a> (map&lt; int, <a class="el" href="classPessoa.html">Pessoa</a> *&gt; &amp;dicionario_pessoas, map&lt; int, <a class="el" href="classAnimal.html">Animal</a> *&gt; &amp;dicionario_animais)</td></tr>
-<tr class="separator:ab1f9d9565853f4a861518cd0f1043542"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a74efa63928f37a53986443672fa712f1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="auxiliar_8h.html#a74efa63928f37a53986443672fa712f1">delAnimal</a> (map&lt; int, <a class="el" href="classAnimal.html">Animal</a> *&gt; &amp;dicionario_animais)</td></tr>
-<tr class="separator:a74efa63928f37a53986443672fa712f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad0d0f0ce9c3289b4bd6ecfae02494b2f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="auxiliar_8h.html#ad0d0f0ce9c3289b4bd6ecfae02494b2f">printMenu</a> (void)</td></tr>
-<tr class="separator:ad0d0f0ce9c3289b4bd6ecfae02494b2f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a22d06be7856a808b022cd28af1bcabe0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceauxiliar.html#a22d06be7856a808b022cd28af1bcabe0">auxiliar::clearEntrada</a> (void)</td></tr>
+<tr class="separator:a22d06be7856a808b022cd28af1bcabe0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a27f072c1a055b2d7259b6f3818c8f7e0"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceauxiliar.html#a27f072c1a055b2d7259b6f3818c8f7e0">auxiliar::fillPessoas</a> (map&lt; int, <a class="el" href="classPessoa.html">Pessoa</a> *&gt; &amp;pessoas, string path_pessoas, int &amp;pessoas_last_id)</td></tr>
+<tr class="separator:a27f072c1a055b2d7259b6f3818c8f7e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5859d39d5e84b099d563fe85407684eb"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceauxiliar.html#a5859d39d5e84b099d563fe85407684eb">auxiliar::fillAnimais</a> (map&lt; int, <a class="el" href="classPessoa.html">Pessoa</a> *&gt; &amp;pessoas, map&lt; int, <a class="el" href="classAnimal.html">Animal</a> *&gt; &amp;animais, string path_animais, int &amp;animais_last_id)</td></tr>
+<tr class="separator:a5859d39d5e84b099d563fe85407684eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a23b272fa2155c770db9b2fbea0675422"><td class="memItemLeft" align="right" valign="top">const vector&lt; string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceauxiliar.html#a23b272fa2155c770db9b2fbea0675422">auxiliar::explode</a> (const string s, const char c)</td></tr>
+<tr class="separator:a23b272fa2155c770db9b2fbea0675422"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa9e976d1a77402120c0c1fe5cc73c4f0"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceauxiliar.html#aa9e976d1a77402120c0c1fe5cc73c4f0">auxiliar::saveInFiles</a> (map&lt; int, <a class="el" href="classPessoa.html">Pessoa</a> *&gt; dicionario_pessoas, map&lt; int, <a class="el" href="classAnimal.html">Animal</a> *&gt; dicionario_animais, string path_pessoas, string path_animais)</td></tr>
+<tr class="separator:aa9e976d1a77402120c0c1fe5cc73c4f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a71d409a1407e9603cee48ccbed324e9e"><td class="memItemLeft" align="right" valign="top">map&lt; int, <a class="el" href="classPessoa.html">Pessoa</a> * &gt;::iterator&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceauxiliar.html#a71d409a1407e9603cee48ccbed324e9e">auxiliar::searchPessoa</a> (map&lt; int, <a class="el" href="classPessoa.html">Pessoa</a> *&gt; &amp;dicionario_pessoas)</td></tr>
+<tr class="separator:a71d409a1407e9603cee48ccbed324e9e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2cd3b52dc6e46d24111d30a3af90c3e7"><td class="memItemLeft" align="right" valign="top">map&lt; int, <a class="el" href="classAnimal.html">Animal</a> * &gt;::iterator&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceauxiliar.html#a2cd3b52dc6e46d24111d30a3af90c3e7">auxiliar::searchAnimal</a> (map&lt; int, <a class="el" href="classAnimal.html">Animal</a> *&gt; &amp;dicionario_animais, bool all_options=true)</td></tr>
+<tr class="separator:a2cd3b52dc6e46d24111d30a3af90c3e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6ec734f9615ceb56c91a5fdd173d4cb8"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceauxiliar.html#a6ec734f9615ceb56c91a5fdd173d4cb8">auxiliar::newQuickAnimal</a> (map&lt; int, <a class="el" href="classAnimal.html">Animal</a> *&gt; &amp;animais, int &amp;animais_last_id)</td></tr>
+<tr class="separator:a6ec734f9615ceb56c91a5fdd173d4cb8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2f2bca87e940cb22f5bda0db2cc2ca06"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceauxiliar.html#a2f2bca87e940cb22f5bda0db2cc2ca06">auxiliar::newFuncionario</a> (map&lt; int, <a class="el" href="classPessoa.html">Pessoa</a> *&gt; &amp;dicionario_pessoas, int &amp;pessoas_last_id)</td></tr>
+<tr class="separator:a2f2bca87e940cb22f5bda0db2cc2ca06"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abd673813422492851275301ace626eb8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceauxiliar.html#abd673813422492851275301ace626eb8">auxiliar::delPessoa</a> (map&lt; int, <a class="el" href="classPessoa.html">Pessoa</a> *&gt; &amp;dicionario_pessoas, map&lt; int, <a class="el" href="classAnimal.html">Animal</a> *&gt; &amp;dicionario_animais)</td></tr>
+<tr class="separator:abd673813422492851275301ace626eb8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5db068222cf0aafe1209ccec0ab40518"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceauxiliar.html#a5db068222cf0aafe1209ccec0ab40518">auxiliar::delAnimal</a> (map&lt; int, <a class="el" href="classAnimal.html">Animal</a> *&gt; &amp;dicionario_animais)</td></tr>
+<tr class="separator:a5db068222cf0aafe1209ccec0ab40518"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af9d1f3fd9d428129319ab2bc89ac638e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceauxiliar.html#af9d1f3fd9d428129319ab2bc89ac638e">auxiliar::printMenu</a> (void)</td></tr>
+<tr class="separator:af9d1f3fd9d428129319ab2bc89ac638e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Descrição Detalhada</h2>
 <div class="textblock"><p>Funções auxiliares. </p>
 <p>Declaração de funções auxiliares </p><dl class="section author"><dt>Autor</dt><dd>David Cardoso </dd></dl>
 <dl class="section since"><dt>Desde</dt><dd>31/10/2016 </dd></dl>
-<dl class="section date"><dt>Data</dt><dd>10/11/2016 </dd></dl>
+<dl class="section date"><dt>Data</dt><dd>12/12/2016 </dd></dl>
 <dl class="section copyright"><dt>Copyright</dt><dd>2016 - All rights reserveds </dd></dl>
-<dl class="section see"><dt>Veja também</dt><dd><a href="http://projetos.imd.ufrn.br/davidcardoso-ti/imd0030-projeto2/blob/master/include/petfera/auxiliar.h">http://projetos.imd.ufrn.br/davidcardoso-ti/imd0030-projeto2/blob/master/include/petfera/auxiliar.h</a> </dd></dl>
-</div><h2 class="groupheader">Funções</h2>
-<a id="a6c13aae1128002271e3e0394e32a244f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6c13aae1128002271e3e0394e32a244f">&sect;&nbsp;</a></span>clearEntrada()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void clearEntrada </td>
-          <td>(</td>
-          <td class="paramtype">void&#160;</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>limpar entrada padrão "cin" </p>
-
-</div>
-</div>
-<a id="a74efa63928f37a53986443672fa712f1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a74efa63928f37a53986443672fa712f1">&sect;&nbsp;</a></span>delAnimal()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void delAnimal </td>
-          <td>(</td>
-          <td class="paramtype">map&lt; int, <a class="el" href="classAnimal.html">Animal</a> *&gt; &amp;&#160;</td>
-          <td class="paramname"><em>dicionario_animais</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>excluir animal pelo ID </p><dl class="params"><dt>Parâmetros</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">dicionario_animais</td><td></td></tr>
-  </table>
-  </dd>
-</dl>
-<div class="dynheader">
-Este é o diagrama das funções utilizadas por esta função:</div>
-<div class="dyncontent">
-<div class="center"><img src="auxiliar_8h_a74efa63928f37a53986443672fa712f1_cgraph.png" border="0" usemap="#auxiliar_8h_a74efa63928f37a53986443672fa712f1_cgraph" alt=""/></div>
-<map name="auxiliar_8h_a74efa63928f37a53986443672fa712f1_cgraph" id="auxiliar_8h_a74efa63928f37a53986443672fa712f1_cgraph">
-<area shape="rect" id="node2" href="auxiliar_8cpp.html#a98cf8b7adff59f66d5d74f029c153db3" title="searchAnimal" alt="" coords="132,5,233,32"/>
-</map>
-</div>
-
-</div>
-</div>
-<a id="ab1f9d9565853f4a861518cd0f1043542"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab1f9d9565853f4a861518cd0f1043542">&sect;&nbsp;</a></span>delPessoa()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void delPessoa </td>
-          <td>(</td>
-          <td class="paramtype">map&lt; int, <a class="el" href="classPessoa.html">Pessoa</a> *&gt; &amp;&#160;</td>
-          <td class="paramname"><em>dicionario_pessoas</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">map&lt; int, <a class="el" href="classAnimal.html">Animal</a> *&gt; &amp;&#160;</td>
-          <td class="paramname"><em>dicionario_animais</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>excluir funcionário pelo ID </p><dl class="params"><dt>Parâmetros</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">dicionario_pessoas</td><td></td></tr>
-    <tr><td class="paramname">dicionario_animais</td><td></td></tr>
-  </table>
-  </dd>
-</dl>
-<div class="dynheader">
-Este é o diagrama das funções utilizadas por esta função:</div>
-<div class="dyncontent">
-<div class="center"><img src="auxiliar_8h_ab1f9d9565853f4a861518cd0f1043542_cgraph.png" border="0" usemap="#auxiliar_8h_ab1f9d9565853f4a861518cd0f1043542_cgraph" alt=""/></div>
-<map name="auxiliar_8h_ab1f9d9565853f4a861518cd0f1043542_cgraph" id="auxiliar_8h_ab1f9d9565853f4a861518cd0f1043542_cgraph">
-<area shape="rect" id="node2" href="auxiliar_8cpp.html#af24c83c599e859cae964e495140c3930" title="searchPessoa" alt="" coords="136,5,241,32"/>
-</map>
-</div>
-
-</div>
-</div>
-<a id="ad2b21ce8286f44758269c6f0cc0bb728"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad2b21ce8286f44758269c6f0cc0bb728">&sect;&nbsp;</a></span>explode()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">const vector&lt;string&gt; explode </td>
-          <td>(</td>
-          <td class="paramtype">const string&#160;</td>
-          <td class="paramname"><em>s</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const char&#160;</td>
-          <td class="paramname"><em>c</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>função <a class="el" href="auxiliar_8h.html#ad2b21ce8286f44758269c6f0cc0bb728">explode()</a></p>
-<p>quebra uma string de acordo com um caracter separador </p><dl class="params"><dt>Parâmetros</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">s</td><td>- string </td></tr>
-    <tr><td class="paramname">c</td><td>- caracter </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Retorna</dt><dd>vetor contendo as partes da string </dd></dl>
-
-</div>
-</div>
-<a id="addb9fa688154fa6aa3b346a2c3d9fb9f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#addb9fa688154fa6aa3b346a2c3d9fb9f">&sect;&nbsp;</a></span>fillAnimais()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool fillAnimais </td>
-          <td>(</td>
-          <td class="paramtype">map&lt; int, <a class="el" href="classPessoa.html">Pessoa</a> *&gt; &amp;&#160;</td>
-          <td class="paramname"><em>pessoas</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">map&lt; int, <a class="el" href="classAnimal.html">Animal</a> *&gt; &amp;&#160;</td>
-          <td class="paramname"><em>animais</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">string&#160;</td>
-          <td class="paramname"><em>path_animais</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int &amp;&#160;</td>
-          <td class="paramname"><em>animais_last_id</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>preenche dicionario de objeto <a class="el" href="classAnimal.html">Animal</a> com conteudo do arquivo </p><dl class="params"><dt>Parâmetros</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">pessoas</td><td>- referencia para a dicionario </td></tr>
-    <tr><td class="paramname">animais</td><td>- referencia para a dicionario </td></tr>
-    <tr><td class="paramname">path_animais</td><td>- caminho do arquivo </td></tr>
-    <tr><td class="paramname">animais_last_id</td><td>- ultimo ID de animal </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Retorna</dt><dd>boolean </dd></dl>
-<div class="dynheader">
-Este é o diagrama das funções utilizadas por esta função:</div>
-<div class="dyncontent">
-<div class="center"><img src="auxiliar_8h_addb9fa688154fa6aa3b346a2c3d9fb9f_cgraph.png" border="0" usemap="#auxiliar_8h_addb9fa688154fa6aa3b346a2c3d9fb9f_cgraph" alt=""/></div>
-<map name="auxiliar_8h_addb9fa688154fa6aa3b346a2c3d9fb9f_cgraph" id="auxiliar_8h_addb9fa688154fa6aa3b346a2c3d9fb9f_cgraph">
-<area shape="rect" id="node2" href="auxiliar_8cpp.html#ad2b21ce8286f44758269c6f0cc0bb728" title="explode" alt="" coords="136,5,203,32"/>
-</map>
-</div>
-
-</div>
-</div>
-<a id="a28a8b1cc1abbbf836c45451d428aaa48"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a28a8b1cc1abbbf836c45451d428aaa48">&sect;&nbsp;</a></span>fillPessoas()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool fillPessoas </td>
-          <td>(</td>
-          <td class="paramtype">map&lt; int, <a class="el" href="classPessoa.html">Pessoa</a> *&gt; &amp;&#160;</td>
-          <td class="paramname"><em>pessoas</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">string&#160;</td>
-          <td class="paramname"><em>path_pessoas</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int &amp;&#160;</td>
-          <td class="paramname"><em>pessoas_last_id</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>preenche dicionario de objeto <a class="el" href="classPessoa.html">Pessoa</a> com conteudo do arquivo </p><dl class="params"><dt>Parâmetros</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">pessoas</td><td>- referencia para a dicionario </td></tr>
-    <tr><td class="paramname">path_pessoas</td><td>- caminho do arquivo </td></tr>
-    <tr><td class="paramname">pessoas_last_id</td><td>- ultimo ID de pessoa </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Retorna</dt><dd>boolean </dd></dl>
-<div class="dynheader">
-Este é o diagrama das funções utilizadas por esta função:</div>
-<div class="dyncontent">
-<div class="center"><img src="auxiliar_8h_a28a8b1cc1abbbf836c45451d428aaa48_cgraph.png" border="0" usemap="#auxiliar_8h_a28a8b1cc1abbbf836c45451d428aaa48_cgraph" alt=""/></div>
-<map name="auxiliar_8h_a28a8b1cc1abbbf836c45451d428aaa48_cgraph" id="auxiliar_8h_a28a8b1cc1abbbf836c45451d428aaa48_cgraph">
-<area shape="rect" id="node2" href="auxiliar_8cpp.html#ad2b21ce8286f44758269c6f0cc0bb728" title="explode" alt="" coords="140,5,207,32"/>
-</map>
-</div>
-
-</div>
-</div>
-<a id="a2c1dbcd6a844b52b7193368988b22af3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2c1dbcd6a844b52b7193368988b22af3">&sect;&nbsp;</a></span>newFuncionario()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool newFuncionario </td>
-          <td>(</td>
-          <td class="paramtype">map&lt; int, <a class="el" href="classPessoa.html">Pessoa</a> *&gt; &amp;&#160;</td>
-          <td class="paramname"><em>dicionario_pessoas</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int &amp;&#160;</td>
-          <td class="paramname"><em>pessoas_last_id</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>cadastro de novo funcionário </p><dl class="params"><dt>Parâmetros</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">dicionario_pessoas</td><td></td></tr>
-    <tr><td class="paramname">pessoas_last_id</td><td></td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Retorna</dt><dd>boolean </dd></dl>
-<div class="dynheader">
-Este é o diagrama das funções utilizadas por esta função:</div>
-<div class="dyncontent">
-<div class="center"><img src="auxiliar_8h_a2c1dbcd6a844b52b7193368988b22af3_cgraph.png" border="0" usemap="#auxiliar_8h_a2c1dbcd6a844b52b7193368988b22af3_cgraph" alt=""/></div>
-<map name="auxiliar_8h_a2c1dbcd6a844b52b7193368988b22af3_cgraph" id="auxiliar_8h_a2c1dbcd6a844b52b7193368988b22af3_cgraph">
-<area shape="rect" id="node2" href="auxiliar_8cpp.html#ac9876530a345bec2678b6f80b502ff12" title="clearEntrada" alt="" coords="167,5,261,32"/>
-</map>
-</div>
-
-</div>
-</div>
-<a id="a8b066f14f11cda8ef32acaa352a42541"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8b066f14f11cda8ef32acaa352a42541">&sect;&nbsp;</a></span>newQuickAnimal()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool newQuickAnimal </td>
-          <td>(</td>
-          <td class="paramtype">map&lt; int, <a class="el" href="classAnimal.html">Animal</a> *&gt; &amp;&#160;</td>
-          <td class="paramname"><em>animais</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int &amp;&#160;</td>
-          <td class="paramname"><em>animais_last_id</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>cadastro rápido de um novo animal (id, classe e batismo) </p><dl class="params"><dt>Parâmetros</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">animais</td><td>- dicionario de animais </td></tr>
-    <tr><td class="paramname">animais_last_id</td><td>- ultimo ID animal </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Retorna</dt><dd>boolean </dd></dl>
-<div class="dynheader">
-Este é o diagrama das funções utilizadas por esta função:</div>
-<div class="dyncontent">
-<div class="center"><img src="auxiliar_8h_a8b066f14f11cda8ef32acaa352a42541_cgraph.png" border="0" usemap="#auxiliar_8h_a8b066f14f11cda8ef32acaa352a42541_cgraph" alt=""/></div>
-<map name="auxiliar_8h_a8b066f14f11cda8ef32acaa352a42541_cgraph" id="auxiliar_8h_a8b066f14f11cda8ef32acaa352a42541_cgraph">
-<area shape="rect" id="node2" href="auxiliar_8cpp.html#ac9876530a345bec2678b6f80b502ff12" title="clearEntrada" alt="" coords="173,5,268,32"/>
-</map>
-</div>
-
-</div>
-</div>
-<a id="ad0d0f0ce9c3289b4bd6ecfae02494b2f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad0d0f0ce9c3289b4bd6ecfae02494b2f">&sect;&nbsp;</a></span>printMenu()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void printMenu </td>
-          <td>(</td>
-          <td class="paramtype">void&#160;</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>Imprimir menu de opçoes para o usuário </p>
-
-</div>
-</div>
-<a id="acf9c58c7b7bf8b6c35c09430e1662ee5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acf9c58c7b7bf8b6c35c09430e1662ee5">&sect;&nbsp;</a></span>saveInFiles()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool saveInFiles </td>
-          <td>(</td>
-          <td class="paramtype">map&lt; int, <a class="el" href="classPessoa.html">Pessoa</a> *&gt;&#160;</td>
-          <td class="paramname"><em>dicionario_pessoas</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">map&lt; int, <a class="el" href="classAnimal.html">Animal</a> *&gt;&#160;</td>
-          <td class="paramname"><em>dicionario_animais</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">string&#160;</td>
-          <td class="paramname"><em>path_pessoas</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">string&#160;</td>
-          <td class="paramname"><em>path_animais</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>salvar dados das dicionarios de objetos <a class="el" href="classPessoa.html">Pessoa</a> e <a class="el" href="classAnimal.html">Animal</a> em arquivos </p><dl class="params"><dt>Parâmetros</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">dicionario_pessoas</td><td>- dicionario de ponteiro para objeto <a class="el" href="classPessoa.html">Pessoa</a> </td></tr>
-    <tr><td class="paramname">dicionario_animais</td><td>- dicionario de ponteiro para objeto <a class="el" href="classAnimal.html">Animal</a> </td></tr>
-    <tr><td class="paramname">path_pessoas</td><td>- caminho do arquivo pessoa </td></tr>
-    <tr><td class="paramname">path_animais</td><td>- caminho do arquivo animal </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Retorna</dt><dd>boolean </dd></dl>
-
-</div>
-</div>
-<a id="ad2e3c64ba91553c2d56e262184eaa2ce"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad2e3c64ba91553c2d56e262184eaa2ce">&sect;&nbsp;</a></span>searchAnimal()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">map&lt;int, <a class="el" href="classAnimal.html">Animal</a>*&gt;::iterator searchAnimal </td>
-          <td>(</td>
-          <td class="paramtype">map&lt; int, <a class="el" href="classAnimal.html">Animal</a> *&gt; &amp;&#160;</td>
-          <td class="paramname"><em>dicionario_animais</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">bool&#160;</td>
-          <td class="paramname"><em>all_options</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>pesquisar um animal pelo ID </p><dl class="params"><dt>Parâmetros</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">dicionario_animais</td><td></td></tr>
-    <tr><td class="paramname">all_options</td><td>- se true, mostra todas as opções </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Retorna</dt><dd>iterador para dicionario de animais </dd></dl>
-
-</div>
-</div>
-<a id="af24c83c599e859cae964e495140c3930"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af24c83c599e859cae964e495140c3930">&sect;&nbsp;</a></span>searchPessoa()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">map&lt;int, <a class="el" href="classPessoa.html">Pessoa</a>*&gt;::iterator searchPessoa </td>
-          <td>(</td>
-          <td class="paramtype">map&lt; int, <a class="el" href="classPessoa.html">Pessoa</a> *&gt; &amp;&#160;</td>
-          <td class="paramname"><em>dicionario_pessoas</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>pesquisar uma pessoa pelo ID </p><dl class="params"><dt>Parâmetros</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">dicionario_pessoas</td><td></td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Retorna</dt><dd>iterador para dicionario de pessoas </dd></dl>
-
-</div>
-</div>
-</div><!-- contents -->
+<dl class="section see"><dt>Veja também</dt><dd><a href="http://projetos.imd.ufrn.br/davidcardoso-ti/imd0030-projeto3/blob/master/include/petfera/auxiliar.h">http://projetos.imd.ufrn.br/davidcardoso-ti/imd0030-projeto3/blob/master/include/petfera/auxiliar.h</a> </dd></dl>
+</div></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
 Gerado por &#160;<a href="http://www.doxygen.org/index.html">

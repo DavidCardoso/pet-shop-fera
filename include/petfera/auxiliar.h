@@ -4,9 +4,9 @@
   * @details 	Declaração de funções auxiliares
   * @author		David Cardoso
   * @since		31/10/2016
-  * @date		10/11/2016
+  * @date		12/12/2016
   * @copyright 	2016 - All rights reserveds
-  * @sa 		http://projetos.imd.ufrn.br/davidcardoso-ti/imd0030-projeto2/blob/master/include/petfera/auxiliar.h
+  * @sa 		http://projetos.imd.ufrn.br/davidcardoso-ti/imd0030-projeto3/blob/master/include/petfera/auxiliar.h
   */
 
 #ifndef AUX_H
@@ -32,96 +32,100 @@
 
 using namespace std;
 
-/**
- * limpar entrada padrão "cin"
- */
-void clearEntrada(void);
+namespace auxiliar {
 
-/**
- * preenche dicionario de objeto Pessoa com conteudo do arquivo
- * @param  pessoas      - referencia para a dicionario
- * @param  path_pessoas - caminho do arquivo
- * @param  pessoas_last_id - ultimo ID de pessoa
- * @return boolean
- */
-bool fillPessoas(map<int, Pessoa*> &pessoas, string path_pessoas, int &pessoas_last_id);
+	/**
+	 * limpar entrada padrão "cin"
+	 */
+	extern "C" void clearEntrada(void);
 
-/**
- * preenche dicionario de objeto Animal com conteudo do arquivo
- * @param  pessoas      - referencia para a dicionario
- * @param  animais      - referencia para a dicionario
- * @param  path_animais - caminho do arquivo
- * @param  animais_last_id - ultimo ID de animal
- * @return boolean
- */
-bool fillAnimais(map<int, Pessoa*> &pessoas, map<int, Animal*> &animais, string path_animais, int &animais_last_id);
+	/**
+	 * preenche dicionario de objeto Pessoa com conteudo do arquivo
+	 * @param  pessoas      - referencia para a dicionario
+	 * @param  path_pessoas - caminho do arquivo
+	 * @param  pessoas_last_id - ultimo ID de pessoa
+	 * @return boolean
+	 */
+	extern "C" bool fillPessoas(map<int, Pessoa*> &pessoas, string path_pessoas, int &pessoas_last_id);
 
-/**
- * função explode()
- * @details 	quebra uma string de acordo com um caracter separador
- * @param 		s - string
- * @param 		c - caracter
- * @return 		vetor contendo as partes da string
- */
-const vector<string> explode(const string s, const char c);
+	/**
+	 * preenche dicionario de objeto Animal com conteudo do arquivo
+	 * @param  pessoas      - referencia para a dicionario
+	 * @param  animais      - referencia para a dicionario
+	 * @param  path_animais - caminho do arquivo
+	 * @param  animais_last_id - ultimo ID de animal
+	 * @return boolean
+	 */
+	extern "C" bool fillAnimais(map<int, Pessoa*> &pessoas, map<int, Animal*> &animais, string path_animais, int &animais_last_id);
 
-/**
- * salvar dados das dicionarios de objetos Pessoa e Animal em arquivos
- * @param 	dicionario_pessoas - dicionario de ponteiro para objeto Pessoa
- * @param 	dicionario_animais - dicionario de ponteiro para objeto Animal
- * @param 	path_pessoas - caminho do arquivo pessoa
- * @param 	path_animais - caminho do arquivo animal
- * @return 	boolean
- */
-bool saveInFiles(map<int, Pessoa*> dicionario_pessoas, map<int, Animal*> dicionario_animais, string path_pessoas, string path_animais);
+	/**
+	 * função explode()
+	 * @details 	quebra uma string de acordo com um caracter separador
+	 * @param 		s - string
+	 * @param 		c - caracter
+	 * @return 		vetor contendo as partes da string
+	 */
+	extern "C" const vector<string> explode(const string s, const char c);
 
-/**
- * pesquisar uma pessoa pelo ID
- * @param dicionario_pessoas
- * @return iterador para dicionario de pessoas
- */
-map<int, Pessoa*>::iterator searchPessoa(map<int, Pessoa*> &dicionario_pessoas);
+	/**
+	 * salvar dados das dicionarios de objetos Pessoa e Animal em arquivos
+	 * @param 	dicionario_pessoas - dicionario de ponteiro para objeto Pessoa
+	 * @param 	dicionario_animais - dicionario de ponteiro para objeto Animal
+	 * @param 	path_pessoas - caminho do arquivo pessoa
+	 * @param 	path_animais - caminho do arquivo animal
+	 * @return 	boolean
+	 */
+	extern "C" bool saveInFiles(map<int, Pessoa*> dicionario_pessoas, map<int, Animal*> dicionario_animais, string path_pessoas, string path_animais);
 
-/**
- * pesquisar um animal pelo ID
- * @param dicionario_animais
- * @param all_options - se true, mostra todas as opções
- * @return iterador para dicionario de animais
- */
-map<int, Animal*>::iterator searchAnimal(map<int, Animal*> &dicionario_animais, bool all_options = true);
+	/**
+	 * pesquisar uma pessoa pelo ID
+	 * @param dicionario_pessoas
+	 * @return iterador para dicionario de pessoas
+	 */
+	extern "C" map<int, Pessoa*>::iterator searchPessoa(map<int, Pessoa*> &dicionario_pessoas);
 
-/**
- * cadastro rápido de um novo animal (id, classe e batismo)
- * @param  animais - dicionario de animais
- * @param  animais_last_id - ultimo ID animal
- * @return boolean
- */
-bool newQuickAnimal(map<int, Animal*> &animais, int &animais_last_id);
+	/**
+	 * pesquisar um animal pelo ID
+	 * @param dicionario_animais
+	 * @param all_options - se true, mostra todas as opções
+	 * @return iterador para dicionario de animais
+	 */
+	extern "C" map<int, Animal*>::iterator searchAnimal(map<int, Animal*> &dicionario_animais, bool all_options = true);
 
-/**
- * cadastro de novo funcionário
- * @param  	dicionario_pessoas 
- * @param  	pessoas_last_id 
- * @return 	boolean
- */
-bool newFuncionario(map<int, Pessoa*> &dicionario_pessoas, int &pessoas_last_id);
+	/**
+	 * cadastro rápido de um novo animal (id, classe e batismo)
+	 * @param  animais - dicionario de animais
+	 * @param  animais_last_id - ultimo ID animal
+	 * @return boolean
+	 */
+	extern "C" bool newQuickAnimal(map<int, Animal*> &animais, int &animais_last_id);
 
-/**
- * excluir funcionário pelo ID
- * @param dicionario_pessoas
- * @param dicionario_animais
- */
-void delPessoa(map<int, Pessoa*> &dicionario_pessoas, map<int, Animal*> &dicionario_animais);
+	/**
+	 * cadastro de novo funcionário
+	 * @param  	dicionario_pessoas 
+	 * @param  	pessoas_last_id 
+	 * @return 	boolean
+	 */
+	extern "C" bool newFuncionario(map<int, Pessoa*> &dicionario_pessoas, int &pessoas_last_id);
 
-/**
- * excluir animal pelo ID
- * @param dicionario_animais
- */
-void delAnimal(map<int, Animal*> &dicionario_animais);
+	/**
+	 * excluir funcionário pelo ID
+	 * @param dicionario_pessoas
+	 * @param dicionario_animais
+	 */
+	extern "C" void delPessoa(map<int, Pessoa*> &dicionario_pessoas, map<int, Animal*> &dicionario_animais);
 
-/**
- * Imprimir menu de opçoes para o usuário
- */
-void printMenu(void);
+	/**
+	 * excluir animal pelo ID
+	 * @param dicionario_animais
+	 */
+	extern "C" void delAnimal(map<int, Animal*> &dicionario_animais);
+
+	/**
+	 * Imprimir menu de opçoes para o usuário
+	 */
+	extern "C" void printMenu(void);
+
+}
 
 #endif // AUX_H

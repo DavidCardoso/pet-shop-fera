@@ -12,6 +12,7 @@ var searchData=
   ['animal_5fnativo_2eh',['animal_nativo.h',['../animal__nativo_8h.html',1,'']]],
   ['animal_5fsilvestre_2ecpp',['animal_silvestre.cpp',['../animal__silvestre_8cpp.html',1,'']]],
   ['animal_5fsilvestre_2eh',['animal_silvestre.h',['../animal__silvestre_8h.html',1,'']]],
+  ['auxiliar',['auxiliar',['../namespaceauxiliar.html',1,'']]],
   ['auxiliar_2ecpp',['auxiliar.cpp',['../auxiliar_8cpp.html',1,'']]],
   ['auxiliar_2eh',['auxiliar.h',['../auxiliar_8h.html',1,'']]],
   ['ave',['Ave',['../classAve.html',1,'Ave'],['../classAve.html#ab6e3d2f170688e6d213b0e945040497c',1,'Ave::Ave(int id, string classe, string batismo)'],['../classAve.html#a11ea334530d16bf9ad924ed7530cb84c',1,'Ave::Ave(int, string, string, string, string, string, char, float, Pessoa *, Pessoa *, int, int)']]],

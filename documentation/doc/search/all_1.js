@@ -24,5 +24,5 @@ var searchData=
   ['classe_5freptil_5fexotico_2eh',['classe_reptil_exotico.h',['../classe__reptil__exotico_8h.html',1,'']]],
   ['classe_5freptil_5fnativo_2ecpp',['classe_reptil_nativo.cpp',['../classe__reptil__nativo_8cpp.html',1,'']]],
   ['classe_5freptil_5fnativo_2eh',['classe_reptil_nativo.h',['../classe__reptil__nativo_8h.html',1,'']]],
-  ['clearentrada',['clearEntrada',['../auxiliar_8h.html#a6c13aae1128002271e3e0394e32a244f',1,'clearEntrada(void):&#160;auxiliar.cpp'],['../auxiliar_8cpp.html#ac9876530a345bec2678b6f80b502ff12',1,'clearEntrada():&#160;auxiliar.cpp']]]
+  ['clearentrada',['clearEntrada',['../namespaceauxiliar.html#a22d06be7856a808b022cd28af1bcabe0',1,'auxiliar']]]
 ];

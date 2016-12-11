@@ -1,8 +1,8 @@
 var searchData=
 [
-  ['saveinfiles',['saveInFiles',['../auxiliar_8h.html#acf9c58c7b7bf8b6c35c09430e1662ee5',1,'saveInFiles(map&lt; int, Pessoa *&gt; dicionario_pessoas, map&lt; int, Animal *&gt; dicionario_animais, string path_pessoas, string path_animais):&#160;auxiliar.cpp'],['../auxiliar_8cpp.html#acf9c58c7b7bf8b6c35c09430e1662ee5',1,'saveInFiles(map&lt; int, Pessoa *&gt; dicionario_pessoas, map&lt; int, Animal *&gt; dicionario_animais, string path_pessoas, string path_animais):&#160;auxiliar.cpp']]],
-  ['searchanimal',['searchAnimal',['../auxiliar_8h.html#ad2e3c64ba91553c2d56e262184eaa2ce',1,'searchAnimal(map&lt; int, Animal *&gt; &amp;dicionario_animais, bool all_options=true):&#160;auxiliar.cpp'],['../auxiliar_8cpp.html#a98cf8b7adff59f66d5d74f029c153db3',1,'searchAnimal(map&lt; int, Animal *&gt; &amp;dicionario_animais, bool all_options):&#160;auxiliar.cpp']]],
-  ['searchpessoa',['searchPessoa',['../auxiliar_8h.html#af24c83c599e859cae964e495140c3930',1,'searchPessoa(map&lt; int, Pessoa *&gt; &amp;dicionario_pessoas):&#160;auxiliar.cpp'],['../auxiliar_8cpp.html#af24c83c599e859cae964e495140c3930',1,'searchPessoa(map&lt; int, Pessoa *&gt; &amp;dicionario_pessoas):&#160;auxiliar.cpp']]],
+  ['saveinfiles',['saveInFiles',['../namespaceauxiliar.html#aa9e976d1a77402120c0c1fe5cc73c4f0',1,'auxiliar']]],
+  ['searchanimal',['searchAnimal',['../namespaceauxiliar.html#a2cd3b52dc6e46d24111d30a3af90c3e7',1,'auxiliar']]],
+  ['searchpessoa',['searchPessoa',['../namespaceauxiliar.html#a71d409a1407e9603cee48ccbed324e9e',1,'auxiliar']]],
   ['setautorizazcao',['setAutorizazcao',['../classNativo.html#a1e5c29fba130871aebbc6d871b805cc1',1,'Nativo']]],
   ['setbatismo',['setBatismo',['../classAnimal.html#a32016f15fbbb73b8bb091b5ee0b407dd',1,'Animal']]],
   ['setcientifico',['setCientifico',['../classAnimal.html#af4e99ac9cdcc9389cf51d1493926dbf6',1,'Animal']]],

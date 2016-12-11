@@ -78,6 +78,25 @@ namespace auxiliar {
 	extern "C" bool saveInFiles(map<int, Pessoa*> dicionario_pessoas, map<int, Animal*> dicionario_animais, string path_pessoas, string path_animais);
 
 	/**
+	 * salvar dados dos animais filtrados em um arquivo de exportação
+	 * @param 	dicionario_pessoas - dicionario de ponteiro para objeto Pessoa
+	 * @param 	dicionario_animais - dicionario de ponteiro para objeto Animal
+	 * @param 	path_export - caminho do arquivo de exportação
+	 * @return 	boolean
+	 */
+	extern "C" bool export2File(map<int, Pessoa*> dicionario_pessoas, map<int, Animal*> dicionario_animais, string path_export);
+
+	/**
+	 * filtrar animais antes de exportar
+	 * @param 	dicionario_pessoas - dicionario de ponteiro para objeto Pessoa
+	 * @param 	dicionario_animais - dicionario de ponteiro para objeto Animal
+	 * @param 	arg_tipo 	- tipo do argumento a ser usado como filtro
+	 * @param 	arg_valor 	- valor do argumento a ser usado como filtro
+	 * @return 	boolean
+	 */
+	extern "C" bool filterExport(map<int, Pessoa*> &dicionario_pessoas, map<int, Animal*> &dicionario_animais, string arg_tipo, string arg_valor);
+
+	/**
 	 * pesquisar uma pessoa pelo ID
 	 * @param dicionario_pessoas
 	 * @return iterador para dicionario de pessoas

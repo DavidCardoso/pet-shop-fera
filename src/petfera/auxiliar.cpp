@@ -206,7 +206,7 @@ namespace auxiliar {
 
 		if ( save_pessoa ){
 			for (map<int, Pessoa*>::iterator it = dicionario_pessoas.begin(); it != dicionario_pessoas.end(); ++it){
-				save_pessoa << *it->second;
+				save_pessoa << *(it->second);
 			}
 			save_pessoa.close();
 		}else{
@@ -220,7 +220,7 @@ namespace auxiliar {
 
 		if ( save_animal ){
 			for (map<int, Animal*>::iterator it = dicionario_animais.begin(); it != dicionario_animais.end(); ++it){
-				save_animal << *it->second;
+				save_animal << *(it->second);
 			}
 			save_animal.close();
 		}else{
@@ -229,6 +229,87 @@ namespace auxiliar {
 		}
 
 		return true;
+	}
+
+	/**
+	 * salvar dados dos animais filtrados em um arquivo de exportação
+	 * @param 	dicionario_pessoas - dicionario de ponteiro para objeto Pessoa
+	 * @param 	dicionario_animais - dicionario de ponteiro para objeto Animal
+	 * @param 	path_exportar - caminho do arquivo de exportação
+	 * @return 	boolean
+	 */
+	bool export2File(map<int, Pessoa*> dicionario_pessoas, map<int, Animal*> dicionario_animais, string path_exportar){
+
+		// ANIMAL
+		ofstream save_animal;
+		save_animal.open(path_exportar, ios::out | ios::trunc);
+
+		if ( save_animal ){
+			for (map<int, Animal*>::iterator it = dicionario_animais.begin(); it != dicionario_animais.end(); ++it){
+				save_animal << *(it->second);
+			}
+			save_animal.close();
+		}else{
+			cerr << "Não foi possível abrir o arquivo " << path_exportar << endl;
+			return false;
+		}
+
+		return true;
+	}
+
+	/**
+	 * filtrar animais antes de exportar
+	 * @param 	dicionario_pessoas - dicionario de ponteiro para objeto Pessoa
+	 * @param 	dicionario_animais - dicionario de ponteiro para objeto Animal
+	 * @param 	arg_tipo 	- tipo do argumento a ser usado como filtro
+	 * @param 	arg_valor 	- valor do argumento a ser usado como filtro
+	 * @return 	boolean
+	 */
+	bool filterExport(map<int, Pessoa*> &dicionario_pessoas, map<int, Animal*> &dicionario_animais, string arg_tipo, string arg_valor){
+
+		bool retorno = false;
+
+		// varre o dicionario de animais deletando aqueles que não passam no filtro
+		for (map<int, Animal*>::iterator it = dicionario_animais.begin(); it != dicionario_animais.end(); ++it){
+
+			if( arg_tipo == "-v" && it->second->getVeterinario() != nullptr ){
+
+				string v = it->second->getVeterinario()->getNome();
+				transform(v.begin(), v.end(), v.begin(), ::tolower); // converte (iterator) para minusculo
+				transform(arg_valor.begin(), arg_valor.end(), arg_valor.begin(), ::tolower); // converte (digitada) para minusculo
+
+				if(v.find(arg_valor) != std::string::npos) // testa se não há ocorrencia da string digitada e apaga animal
+					retorno = true;
+				else
+					dicionario_animais.erase(it);
+			} 
+			else
+			if( arg_tipo == "-t" && it->second->getTratador() != nullptr ){
+
+				string t = it->second->getTratador()->getNome();
+				transform(t.begin(), t.end(), t.begin(), ::tolower); // converte (iterator) para minusculo
+				transform(arg_valor.begin(), arg_valor.end(), arg_valor.begin(), ::tolower); // converte (digitada) para minusculo
+
+				if(t.find(arg_valor) != std::string::npos) // testa se não há ocorrencia da string digitada e apaga animal
+					retorno = true;
+				else
+					dicionario_animais.erase(it);
+			} 
+			else
+			if( arg_tipo == "-c" ){
+
+				string c = it->second->getClasse();
+				transform(c.begin(), c.end(), c.begin(), ::tolower); // converte (iterator) para minusculo
+				transform(arg_valor.begin(), arg_valor.end(), arg_valor.begin(), ::tolower); // converte (digitada) para minusculo
+
+				if(c.find(arg_valor) != std::string::npos) // testa se não há ocorrencia da string digitada e apaga animal
+					retorno = true;
+				else
+					dicionario_animais.erase(it);
+			}
+		}
+
+		return retorno;
 	}
 
 	/**

@@ -80,6 +80,10 @@ Funções</h2></td></tr>
 <tr class="separator:a23b272fa2155c770db9b2fbea0675422"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa9e976d1a77402120c0c1fe5cc73c4f0"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceauxiliar.html#aa9e976d1a77402120c0c1fe5cc73c4f0">saveInFiles</a> (map&lt; int, <a class="el" href="classPessoa.html">Pessoa</a> *&gt; dicionario_pessoas, map&lt; int, <a class="el" href="classAnimal.html">Animal</a> *&gt; dicionario_animais, string path_pessoas, string path_animais)</td></tr>
 <tr class="separator:aa9e976d1a77402120c0c1fe5cc73c4f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a77a864fd3597b7cb144a89182367259f"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceauxiliar.html#a77a864fd3597b7cb144a89182367259f">export2File</a> (map&lt; int, <a class="el" href="classPessoa.html">Pessoa</a> *&gt; dicionario_pessoas, map&lt; int, <a class="el" href="classAnimal.html">Animal</a> *&gt; dicionario_animais, string path_export)</td></tr>
+<tr class="separator:a77a864fd3597b7cb144a89182367259f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9b58f9296088d6870668b8690c349593"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceauxiliar.html#a9b58f9296088d6870668b8690c349593">filterExport</a> (map&lt; int, <a class="el" href="classPessoa.html">Pessoa</a> *&gt; &amp;dicionario_pessoas, map&lt; int, <a class="el" href="classAnimal.html">Animal</a> *&gt; &amp;dicionario_animais, string arg_tipo, string arg_valor)</td></tr>
+<tr class="separator:a9b58f9296088d6870668b8690c349593"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a71d409a1407e9603cee48ccbed324e9e"><td class="memItemLeft" align="right" valign="top">map&lt; int, <a class="el" href="classPessoa.html">Pessoa</a> * &gt;::iterator&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceauxiliar.html#a71d409a1407e9603cee48ccbed324e9e">searchPessoa</a> (map&lt; int, <a class="el" href="classPessoa.html">Pessoa</a> *&gt; &amp;dicionario_pessoas)</td></tr>
 <tr class="separator:a71d409a1407e9603cee48ccbed324e9e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2cd3b52dc6e46d24111d30a3af90c3e7"><td class="memItemLeft" align="right" valign="top">map&lt; int, <a class="el" href="classAnimal.html">Animal</a> * &gt;::iterator&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceauxiliar.html#a2cd3b52dc6e46d24111d30a3af90c3e7">searchAnimal</a> (map&lt; int, <a class="el" href="classAnimal.html">Animal</a> *&gt; &amp;dicionario_animais, bool all_options=true)</td></tr>
@@ -227,6 +231,58 @@ Este é o diagrama das funções utilizadas por esta função:</div>
 
 </div>
 </div>
+<a id="a77a864fd3597b7cb144a89182367259f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a77a864fd3597b7cb144a89182367259f">&sect;&nbsp;</a></span>export2File()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool auxiliar::export2File </td>
+          <td>(</td>
+          <td class="paramtype">map&lt; int, <a class="el" href="classPessoa.html">Pessoa</a> *&gt;&#160;</td>
+          <td class="paramname"><em>dicionario_pessoas</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">map&lt; int, <a class="el" href="classAnimal.html">Animal</a> *&gt;&#160;</td>
+          <td class="paramname"><em>dicionario_animais</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>path_exportar</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>salvar dados dos animais filtrados em um arquivo de exportação </p><dl class="params"><dt>Parâmetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">dicionario_pessoas</td><td>- dicionario de ponteiro para objeto <a class="el" href="classPessoa.html">Pessoa</a> </td></tr>
+    <tr><td class="paramname">dicionario_animais</td><td>- dicionario de ponteiro para objeto <a class="el" href="classAnimal.html">Animal</a> </td></tr>
+    <tr><td class="paramname">path_export</td><td>- caminho do arquivo de exportação </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Retorna</dt><dd>boolean</dd></dl>
+<p>salvar dados dos animais filtrados em um arquivo de exportação </p><dl class="params"><dt>Parâmetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">dicionario_pessoas</td><td>- dicionario de ponteiro para objeto <a class="el" href="classPessoa.html">Pessoa</a> </td></tr>
+    <tr><td class="paramname">dicionario_animais</td><td>- dicionario de ponteiro para objeto <a class="el" href="classAnimal.html">Animal</a> </td></tr>
+    <tr><td class="paramname">path_exportar</td><td>- caminho do arquivo de exportação </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Retorna</dt><dd>boolean </dd></dl>
+
+</div>
+</div>
 <a id="a5859d39d5e84b099d563fe85407684eb"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a5859d39d5e84b099d563fe85407684eb">&sect;&nbsp;</a></span>fillAnimais()</h2>
 
@@ -333,6 +389,56 @@ Este é o diagrama das funções utilizadas por esta função:</div>
 <area shape="rect" id="node2" href="namespaceauxiliar.html#a23b272fa2155c770db9b2fbea0675422" title="auxiliar::explode" alt="" coords="188,5,304,32"/>
 </map>
 </div>
+
+</div>
+</div>
+<a id="a9b58f9296088d6870668b8690c349593"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9b58f9296088d6870668b8690c349593">&sect;&nbsp;</a></span>filterExport()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool auxiliar::filterExport </td>
+          <td>(</td>
+          <td class="paramtype">map&lt; int, <a class="el" href="classPessoa.html">Pessoa</a> *&gt; &amp;&#160;</td>
+          <td class="paramname"><em>dicionario_pessoas</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">map&lt; int, <a class="el" href="classAnimal.html">Animal</a> *&gt; &amp;&#160;</td>
+          <td class="paramname"><em>dicionario_animais</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>arg_tipo</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>arg_valor</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>filtrar animais antes de exportar </p><dl class="params"><dt>Parâmetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">dicionario_pessoas</td><td>- dicionario de ponteiro para objeto <a class="el" href="classPessoa.html">Pessoa</a> </td></tr>
+    <tr><td class="paramname">dicionario_animais</td><td>- dicionario de ponteiro para objeto <a class="el" href="classAnimal.html">Animal</a> </td></tr>
+    <tr><td class="paramname">arg_tipo</td><td>- tipo do argumento a ser usado como filtro </td></tr>
+    <tr><td class="paramname">arg_valor</td><td>- valor do argumento a ser usado como filtro </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Retorna</dt><dd>boolean </dd></dl>
 
 </div>
 </div>

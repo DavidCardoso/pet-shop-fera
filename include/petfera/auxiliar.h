@@ -1,6 +1,6 @@
 /**
   * @file 		auxiliar.h
-  * @brief 		Funções auxiliares 
+  * @brief 		Funções auxiliares - Biblioteca
   * @details 	Declaração de funções auxiliares
   * @author		David Cardoso
   * @since		31/10/2016

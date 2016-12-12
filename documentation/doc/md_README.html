@@ -72,12 +72,19 @@ $(function() {
 <h2>Objetivo </h2>
 <ul>
 <li>O objetivo deste trabalho é customizar o programa de cadastro de animais para a loja de animais silvestres <b>Pet Fera</b>.</li>
+<li>Principais melhorias:<ul>
+<li>Uso do conteiner 'map' da STL</li>
+<li>Uso de biblioteca dinâmica</li>
+<li>Implementação do programa secundário Exportar</li>
+<li>Tratamento de exceções</li>
+</ul>
+</li>
 </ul>
 <h2>Um pouco sobre o funcionamento da Pet Fera </h2>
 <ul>
 <li><b>Pet Fera</b> é uma loja que comercializa animais silvestres com os devidos cuidados e autorizações do Instituto Brasileiro do Meio Ambiente e dos Recursos Naturais Renováveis (IBAMA). Para garantir a saúde e o bem-estar dos animais sob sua tutela, a <b>Pet Fera</b> mantém uma equipe de profissionais capacitados, incluindo um grupo de veterinários e tratadores. Assim, para cada animal são atribuídos um veterinário e um tratador que juntos garantirão a saúde e o bem-estar dele.</li>
 </ul>
-<h2>Opções do programa (Menu) </h2>
+<h2>Opções do menu principal do programa Pet Fera (build/petfera/petfera.exe) </h2>
 <ul>
 <li>(0) Sair</li>
 <li>(1) Pesquisar funcionário</li>
@@ -86,6 +93,16 @@ $(function() {
 <li>(4) Excluir animal pelo ID</li>
 <li>(5) Cadastro de funcionário</li>
 <li>(6) Cadastro rápido de animal</li>
+</ul>
+<h2>Opções do programa secundário Exportar (build/petfera/exportar.exe) </h2>
+<ul>
+<li>Este programa não pede entrada de dados durante a execução. Porém, aceita parametros via linha de comando:<ul>
+<li>-c &lt;classe&gt; =&gt; filtra por classe de animal (opcional)</li>
+<li>-t &lt;tratador&gt; =&gt; filtra por tratador (opcional)</li>
+<li>-v &lt;veterinario&gt; =&gt; filtra por veterinario (opcional)</li>
+<li>&lt;arquivo_exportacao&gt; =&gt; arquivo usado para salvar o resultado (obrigatório)</li>
+</ul>
+</li>
 </ul>
 <h2>Informações adicionais </h2>
 <ul>

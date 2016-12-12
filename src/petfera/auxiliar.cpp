@@ -1,6 +1,6 @@
 /**
   * @file 		auxiliar.cpp
-  * @brief 		Funções auxiliares 
+  * @brief 		Funções auxiliares - Biblioteca
   * @details 	Implementação de funções auxiliares
   * @author		David Cardoso
   * @since		31/10/2016

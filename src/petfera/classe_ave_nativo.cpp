@@ -4,9 +4,9 @@
   * @details 	Implementação dos métodos da classe
   * @author		David Cardoso
   * @since		31/10/2016
-  * @date		03/11/2016
+  * @date		10/12/2016
   * @copyright 	2016 - All rights reserveds
-  * @sa 		http://projetos.imd.ufrn.br/davidcardoso-ti/imd0030-projeto2/blob/master/src/petfera/classe_ave_nativo.cpp
+  * @sa 		http://projetos.imd.ufrn.br/davidcardoso-ti/imd0030-projeto3/blob/master/src/petfera/classe_ave_nativo.cpp
   */
  
 #include "../../include/petfera/classe_ave_nativo.h"
